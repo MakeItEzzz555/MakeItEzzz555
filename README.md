@@ -76,33 +76,70 @@ philosophy  → ship it, break it, understand it, improve it
 
 ## 🚀 Featured Projects
 
-<p align="center">
+### 🔮 PredictX
 
-<a href="https://github.com/MakeItEzzz555/predictx">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=MakeItEzzz555&repo=predictx&theme=tokyonight&hide_border=true&border_radius=12" />
-</a>
+**Full-stack prediction-market platform** with Yes/No contracts, live order books and price feeds, portfolio tracking, Stripe-backed deposits, market categories and an AI chat assistant.
 
-<a href="https://github.com/MakeItEzzz555/signai-asl-gesture-demo">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=MakeItEzzz555&repo=signai-asl-gesture-demo&theme=tokyonight&hide_border=true&border_radius=12" />
-</a>
-
-<a href="https://github.com/MakeItEzzz555/AirPTTBridge">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=MakeItEzzz555&repo=AirPTTBridge&theme=tokyonight&hide_border=true&border_radius=12" />
-</a>
-
-<a href="https://github.com/MakeItEzzz555/BTC-Price-Prediction">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=MakeItEzzz555&repo=BTC-Price-Prediction&theme=tokyonight&hide_border=true&border_radius=12" />
-</a>
-
-<a href="https://github.com/MakeItEzzz555/skillshare-local">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=MakeItEzzz555&repo=skillshare-local&theme=tokyonight&hide_border=true&border_radius=12" />
-</a>
-
-<a href="https://github.com/MakeItEzzz555/browser-pgp-tool">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=MakeItEzzz555&repo=browser-pgp-tool&theme=tokyonight&hide_border=true&border_radius=12" />
-</a>
-
+<p>
+  <a href="https://github.com/MakeItEzzz555/predictx"><img src="https://img.shields.io/badge/View_PredictX-181717?style=for-the-badge&logo=github&logoColor=white" alt="View PredictX"/></a>
+  <img src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
 </p>
+
+### 🎬 Project Gallery
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3 align="center">🤟 SignAI</h3>
+<a href="https://github.com/MakeItEzzz555/signai-asl-gesture-demo"><img src="assets/projects/signai.png" alt="SignAI ASL Gesture Recognition" width="100%"></a>
+<p align="center"><strong>Browser-based ASL gesture recognition</strong><br>MediaPipe · ONNX Runtime Web · TensorFlow.js · TypeScript</p>
+</td>
+<td width="50%" valign="top">
+<h3 align="center">🧑‍🏫 SkillShare Local</h3>
+<a href="https://github.com/MakeItEzzz555/skillshare-local"><img src="assets/projects/skillshare.png" alt="SkillShare Local session directory" width="100%"></a>
+<p align="center"><strong>Role-based learning-session platform</strong><br>PHP · MySQL · Sessions · Bookings · Ratings</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3 align="center">♻️ Swapee</h3>
+<a href="https://github.com/MakeItEzzz555/swapee-reuse-marketplace"><img src="assets/projects/swapee.png" alt="Swapee reuse marketplace" width="100%"></a>
+<p align="center"><strong>Swap, donate and sell marketplace prototype</strong><br>PHP · MySQL · Listings · Transactions · Impact profiles</p>
+</td>
+<td width="50%" valign="top">
+<h3 align="center">₿ BTC Price Prediction</h3>
+<a href="https://github.com/MakeItEzzz555/BTC-Price-Prediction"><img src="assets/projects/btc-prediction.png" alt="Bitcoin Price Prediction dashboard" width="100%"></a>
+<p align="center"><strong>Rule-based market-signal forecast dashboard</strong><br>Python · Flask · CoinGecko · yfinance</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3 align="center">🔐 Browser PGP Tool</h3>
+<a href="https://github.com/MakeItEzzz555/browser-pgp-tool"><img src="assets/projects/browser-pgp.png" alt="Browser OpenPGP encryption tool" width="100%"></a>
+<p align="center"><strong>Browser-only OpenPGP utility</strong><br>JavaScript · OpenPGP.js · Encryption · Signing · Verification</p>
+</td>
+<td width="50%" valign="top">
+<h3 align="center">⚛️ Particle Physics</h3>
+<a href="https://github.com/MakeItEzzz555/browser-particle-physics"><img src="assets/projects/particle-physics.png" alt="Interactive browser particle physics sandbox" width="100%"></a>
+<p align="center"><strong>Interactive browser physics experiment</strong><br>Three.js · JavaScript · Simulation · Creative coding</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3 align="center">📸 Studio Photosynthesis</h3>
+<a href="https://github.com/MakeItEzzz555/studio-photosynthesis-web"><img src="assets/projects/studio-photosynthesis.png" alt="Studio Photosynthesis photography website" width="100%"></a>
+<p align="center"><strong>Cinematic photography studio website</strong><br>React · TypeScript · Tailwind CSS · Framer Motion</p>
+</td>
+<td width="50%" valign="top">
+<h3 align="center">✨ Pygame Particle Layers</h3>
+<a href="https://github.com/MakeItEzzz555/pygame-particle-layers"><img src="assets/projects/pygame-particles.png" alt="Pygame particle layer effect" width="100%"></a>
+<p align="center"><strong>Layered particle animation experiment</strong><br>Python · Pygame · Visual effects · Creative coding</p>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -121,53 +158,26 @@ philosophy  → ship it, break it, understand it, improve it
 
 ## 🎓 Computer Science Archive
 
-I've consolidated my smaller university labs, tutorials, revision exercises and coursework into a single organized archive:
-
 <p align="center">
-  <a href="https://github.com/MakeItEzzz555/frederick-university-coursework">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MakeItEzzz555&repo=frederick-university-coursework&theme=tokyonight&hide_border=true&border_radius=12" />
-  </a>
+  <a href="https://github.com/MakeItEzzz555/frederick-university-coursework"><img src="https://img.shields.io/badge/Frederick_University-Coursework_Archive-7A5CFF?style=for-the-badge&logo=github&logoColor=white" alt="Frederick University Coursework"/></a>
 </p>
 
-The archive spans work across programming fundamentals, C/C++, Java, operating systems, Unix shell scripting, web development, Python, MIPS assembly and more.
+<p align="center">
+  <img src="https://img.shields.io/badge/85-Coursework_Units-00C2FF?style=flat-square" alt="85 coursework units"/>
+  <img src="https://img.shields.io/badge/15-Organized_Course_Locations-7A5CFF?style=flat-square" alt="15 course locations"/>
+</p>
 
-Substantial applications remain in their own repositories.
+The archive consolidates smaller labs, tutorials, revision exercises and exam practice across programming fundamentals, operating systems, system programming, web development, Python, Java, data structures, UNIX shell work and MIPS assembly. Substantial applications stay in their own repositories.
 
 ---
 
-## 📊 GitHub
+## 📈 GitHub Activity
 
 <p align="center">
-  <img
-    width="49%"
-    src="https://github-readme-stats.vercel.app/api?username=MakeItEzzz555&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12"
-    alt="GitHub Stats"
-  />
-  <img
-    width="39%"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=MakeItEzzz555&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&border_radius=12"
-    alt="Top Languages"
-  />
+  <img src="https://streak-stats.demolab.com?user=MakeItEzzz555&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub contribution streak"/>
 </p>
 
-<p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=MakeItEzzz555&theme=tokyonight&hide_border=true&border_radius=12"
-    alt="GitHub Streak"
-  />
-</p>
-
-<p align="center">
-  <img
-    width="100%"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=MakeItEzzz555&theme=tokyo-night&hide_border=true&area=true"
-    alt="Contribution Activity Graph"
-  />
-</p>
-
-<p align="center">
-  <sub>Language statistics describe the code in my public repositories — not a ranking of proficiency.</sub>
-</p>
+<p align="center"><sub>Project previews above are stored directly in this profile repository for reliable rendering.</sub></p>
 
 ---
 
