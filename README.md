@@ -88,6 +88,22 @@ philosophy  → ship it, break it, understand it, improve it
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
 </p>
 
+### 🎧 AirPTTBridge
+
+**Windows 11 push-to-talk audio bridge** that opens the physical AirPods microphone only while the configured PTT key is held, routes live audio through a virtual cable, and releases the capture endpoint after key-up.
+
+<p align="center">
+  <a href="https://github.com/MakeItEzzz555/AirPTTBridge">
+    <img src="assets/projects/airpttbridge.png" alt="AirPTTBridge Windows setup and system check" width="70%">
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C%23-.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="C# and .NET"/>
+  <img src="https://img.shields.io/badge/Windows_11-0078D4?style=for-the-badge&logo=windows11&logoColor=white" alt="Windows 11"/>
+  <img src="https://img.shields.io/badge/WASAPI-Audio_Routing-512BD4?style=for-the-badge" alt="WASAPI audio routing"/>
+</p>
+
 ### 🎬 Project Gallery
 
 <table>
@@ -140,6 +156,39 @@ philosophy  → ship it, break it, understand it, improve it
 </td>
 </tr>
 </table>
+
+<details>
+<summary><strong>🧩 More Builds & Prototypes</strong></summary>
+<br>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3 align="center">🚗 Open Roads</h3>
+<a href="https://github.com/MakeItEzzz555/open-roads-driving-demo"><img src="assets/projects/open-roads.png" alt="Open Roads driving demo" width="100%"></a>
+<p align="center"><strong>Browser driving experiment</strong><br>3D scene · vehicle controls · interactive prototype</p>
+</td>
+<td width="50%" valign="top">
+<h3 align="center">🅿️ Smart Parking</h3>
+<a href="https://github.com/MakeItEzzz555/smart-parking-prototype"><img src="assets/projects/smart-parking.png" alt="Smart Parking booking prototype" width="100%"></a>
+<p align="center"><strong>Parking-slot booking prototype</strong><br>Interactive UI · availability states · booking flow</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3 align="center">💃 House of Dance Strofes</h3>
+<a href="https://github.com/MakeItEzzz555/house-of-dance-strofes"><img src="assets/projects/house-of-dance.png" alt="House of Dance Strofes website" width="100%"></a>
+<p align="center"><strong>Modern dance-school website</strong><br>Responsive web design · branded landing experience</p>
+</td>
+<td width="50%" valign="top">
+<h3 align="center">🧸 Mummy Cool Kindergarten</h3>
+<a href="https://github.com/MakeItEzzz555/mummy-cool-kindergarten-modernized"><img src="assets/projects/mummy-cool.png" alt="Mummy Cool Kindergarten facilities page" width="100%"></a>
+<p align="center"><strong>Modernized kindergarten website</strong><br>Responsive UI · information architecture · service pages</p>
+</td>
+</tr>
+</table>
+
+</details>
 
 ---
 
