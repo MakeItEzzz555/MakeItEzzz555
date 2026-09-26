@@ -10,11 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/MakeItEzzz555?tab=repositories"><strong>Repositories</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/MakeItEzzz555/frederick-university-coursework"><strong>Coursework</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/MakeItEzzz555?tab=followers"><strong>Follow</strong></a>
+  <a href="https://github.com/MakeItEzzz555?tab=repositories"><img src="./assets/animated/nav-repositories.svg" width="31%" alt="Repositories" /></a>
+  <a href="https://github.com/MakeItEzzz555/frederick-university-coursework"><img src="./assets/animated/nav-coursework.svg" width="31%" alt="Coursework" /></a>
+  <a href="https://github.com/MakeItEzzz555?tab=followers"><img src="./assets/animated/nav-follow.svg" width="31%" alt="Follow" /></a>
 </p>
 
 <br>
@@ -131,38 +129,40 @@
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<h3 align="center">Open Roads</h3>
-<a href="https://github.com/MakeItEzzz555/open-roads-driving-demo"><img src="assets/projects/open-roads.png" alt="Open Roads driving demo" width="100%"></a>
-<p align="center"><strong>Browser driving experiment</strong><br>3D scene · vehicle controls · interactive prototype</p>
-<p align="center"><img src="https://cdn.simpleicons.org/javascript/7DFFB4" width="22" height="22" alt="JavaScript" title="JavaScript" /></p>
+<td colspan="2" valign="top">
+<h3 align="center">DynamicIsland</h3>
+<img src="assets/projects/dynamic-island.jpg" alt="DynamicIsland native macOS expanded workspace with media, Live Activities and shortcuts" width="100%">
+<p align="center"><strong>Native macOS notch workspace</strong><br>Swift · SwiftUI · AppKit · media controls · Live Activities · shortcuts</p>
+<p align="center"><img src="https://cdn.simpleicons.org/swift/7DFFB4" width="22" height="22" alt="Swift" title="Swift" />&nbsp;<img src="https://cdn.simpleicons.org/apple/7DFFB4" width="22" height="22" alt="Apple" title="macOS" /></p>
 </td>
-<td width="50%" valign="top">
-<h3 align="center">Smart Parking</h3>
-<a href="https://github.com/MakeItEzzz555/smart-parking-prototype"><img src="assets/projects/smart-parking.png" alt="Smart Parking booking prototype" width="100%"></a>
-<p align="center"><strong>Parking-slot booking prototype</strong><br>Interactive UI · availability states · booking flow</p>
-<p align="center"><img src="https://cdn.simpleicons.org/html5/7DFFB4" width="22" height="22" alt="HTML5" title="HTML5" />&nbsp;<img src="https://cdn.simpleicons.org/css3/7DFFB4" width="22" height="22" alt="CSS3" title="CSS3" />&nbsp;<img src="https://cdn.simpleicons.org/javascript/7DFFB4" width="22" height="22" alt="JavaScript" title="JavaScript" /></p>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+<h3 align="center">Dungeon Escape</h3>
+<a href="https://github.com/MakeItEzzz555/Dungeon_Escape_Project"><img src="https://raw.githubusercontent.com/MakeItEzzz555/Dungeon_Escape_Project/main/Assets/DU_UI_HUD_Free/GamesTitleBanner.png" alt="Dungeon Escape project banner from the repository README" width="100%"></a>
+<p align="center"><strong>Unity 6 top-down dungeon action/adventure</strong><br>Unity · C# · URP · combat · enemy FSMs · bosses · hazards · progression</p>
+<p align="center"><img src="https://cdn.simpleicons.org/unity/7DFFB4" width="22" height="22" alt="Unity" title="Unity" />&nbsp;<img src="https://cdn.simpleicons.org/dotnet/7DFFB4" width="22" height="22" alt=".NET / C#" title="C#" /></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h3 align="center">House of Dance Strofes</h3>
-<a href="https://github.com/MakeItEzzz555/house-of-dance-strofes"><img src="assets/projects/house-of-dance.png" alt="House of Dance Strofes website" width="100%"></a>
-<p align="center"><strong>Modern dance-school website</strong><br>Responsive web design · branded landing experience</p>
-<p align="center"><img src="https://cdn.simpleicons.org/html5/7DFFB4" width="22" height="22" alt="HTML5" title="HTML5" />&nbsp;<img src="https://cdn.simpleicons.org/css3/7DFFB4" width="22" height="22" alt="CSS3" title="CSS3" />&nbsp;<img src="https://cdn.simpleicons.org/javascript/7DFFB4" width="22" height="22" alt="JavaScript" title="JavaScript" /></p>
+<h3 align="center">Student Timetable Manager</h3>
+<a href="https://github.com/MakeItEzzz555/student-timetable-manager-acsc382-assignment-2"><img src="assets/projects/student-timetable.png" alt="Student Timetable Manager Swing application" width="100%"></a>
+<p align="center"><strong>Desktop timetable-management application</strong><br>Java · Swing · file-backed student/course workflows</p>
+<p align="center"><img src="https://cdn.simpleicons.org/openjdk/7DFFB4" width="22" height="22" alt="Java" title="Java" /></p>
 </td>
 <td width="50%" valign="top">
-<h3 align="center">Mummy Cool Kindergarten</h3>
-<a href="https://github.com/MakeItEzzz555/mummy-cool-kindergarten-modernized"><img src="assets/projects/mummy-cool.png" alt="Mummy Cool Kindergarten facilities page" width="100%"></a>
-<p align="center"><strong>Modernized kindergarten website</strong><br>Responsive UI · information architecture · service pages</p>
-<p align="center"><img src="https://cdn.simpleicons.org/html5/7DFFB4" width="22" height="22" alt="HTML5" title="HTML5" />&nbsp;<img src="https://cdn.simpleicons.org/css3/7DFFB4" width="22" height="22" alt="CSS3" title="CSS3" />&nbsp;<img src="https://cdn.simpleicons.org/javascript/7DFFB4" width="22" height="22" alt="JavaScript" title="JavaScript" /></p>
+<h3 align="center">JavaFX Particle Animation</h3>
+<a href="https://github.com/MakeItEzzz555/javafx-particle-animation"><img src="assets/projects/javafx-particles.png" alt="JavaFX particle animation canvas" width="100%"></a>
+<p align="center"><strong>Animated JavaFX particle canvas</strong><br>Java · JavaFX · canvas rendering · particle motion</p>
+<p align="center"><img src="https://cdn.simpleicons.org/openjdk/7DFFB4" width="22" height="22" alt="Java" title="Java" /></p>
 </td>
 </tr>
 </table>
 
 
 <p align="center">
-  <sub>Visual archive shows every project screenshot currently stored directly in this profile repository. Additional builds without captured screenshots remain represented in the Project Ecosystem above.</sub>
+  <sub>Visual archive combines real project screenshots stored in this profile with visuals sourced from the projects themselves. Builds without a suitable captured interface remain represented in the Project Ecosystem above.</sub>
 </p>
 
 <br>
