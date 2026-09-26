@@ -1,46 +1,134 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1664" height="936" viewBox="0 0 1664 936">
 <defs>
- <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#123c2d" stroke-width="1" opacity=".42"/></pattern>
- <radialGradient id="g"><stop stop-color="#1cff84" stop-opacity=".11"/><stop offset="1" stop-color="#04140d" stop-opacity="0"/></radialGradient>
- <filter id="b"><feGaussianBlur stdDeviation="3"/></filter>
+  <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M50 0H0V50" fill="none" stroke="#174934" stroke-width="1.2" opacity=".34"/><animateTransform attributeName="patternTransform" type="translate" from="0 0" to="50 50" dur="20s" repeatCount="indefinite"/></pattern>
+  <radialGradient id="halo"><stop offset="0" stop-color="#35ff92" stop-opacity=".14"/><stop offset="1" stop-color="#03110b" stop-opacity="0"/></radialGradient>
+  <linearGradient id="scan" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#46ff99" stop-opacity="0"/><stop offset=".5" stop-color="#46ff99" stop-opacity=".15"/><stop offset="1" stop-color="#46ff99" stop-opacity="0"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="4"/></filter>
 </defs>
-<rect width="1664" height="936" rx="18" fill="#08100f"/><rect x="34" y="28" width="1596" height="880" rx="22" fill="#04140d" stroke="#165d3d"/><rect x="34" y="28" width="1596" height="880" rx="22" fill="url(#grid)"/><rect width="1664" height="936" fill="url(#g)"/>
-<g stroke="#37f58b" stroke-width="2" opacity=".55"><path d="M66 82V46h40"/><path d="M1558 46h40v36"/><path d="M66 854v36h40"/><path d="M1558 890h40v-36"/></g>
-<text x="832" y="100" text-anchor="middle" fill="#eafff2" font-family="Inter,system-ui,sans-serif" font-size="46" font-weight="900">TECHNOLOGY UNIVERSE</text>
-<text x="832" y="140" text-anchor="middle" fill="#56dc93" font-family="ui-monospace,monospace" font-size="15" font-weight="700" letter-spacing="6">ENGINEERING STACK / PLATFORMS / INTELLIGENCE / CREATIVE SYSTEMS</text>
-<line x1="600" y1="166" x2="1064" y2="166" stroke="#43ff98" opacity=".35"/>
+<rect width="1664" height="936" rx="22" fill="#07100e"/><rect x="34" y="28" width="1596" height="880" rx="24" fill="#04140d" stroke="#1a6847" stroke-width="1.5"/><rect x="34" y="28" width="1596" height="880" rx="24" fill="url(#grid)"/><rect width="1664" height="936" fill="url(#halo)"><animate attributeName="opacity" values=".55;1;.55" dur="9s" repeatCount="indefinite"/></rect>
+<rect x="36" y="-100" width="1592" height="160" fill="url(#scan)"><animate attributeName="y" values="-100;860;-100" dur="13s" repeatCount="indefinite"/></rect>
+
+<g stroke="#44ff98" stroke-width="2.4" opacity=".58"><path d="M68 92V50h44"/><path d="M1552 50h44v42"/><path d="M68 844v42h44"/><path d="M1552 886h44v-42"/></g>
+
+<g fill="#5aff9f" opacity=".8">
+  <circle cx="175" cy="205" r="4"><animate attributeName="cy" values="205;155;205" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values=".2;1;.2" dur="3.4s" repeatCount="indefinite"/></circle>
+  <circle cx="1490" cy="250" r="5" filter="url(#blur)"><animate attributeName="cx" values="1490;1420;1490" dur="9s" repeatCount="indefinite"/></circle>
+  <circle cx="1510" cy="700" r="4"><animate attributeName="cy" values="700;755;700" dur="8s" repeatCount="indefinite"/></circle>
+</g>
+
+<text x="832" y="100" text-anchor="middle" fill="#f1fff6" font-family="Inter,system-ui,sans-serif" font-size="56" font-weight="900">TECHNOLOGY UNIVERSE</text>
+<text x="832" y="145" text-anchor="middle" fill="#5ce49b" font-family="ui-monospace,monospace" font-size="19" font-weight="800" letter-spacing="5">ENGINEERING STACK / SYSTEMS / INTELLIGENCE / CREATIVE COMPUTING</text>
+<line x1="548" y1="172" x2="1116" y2="172" stroke="#4df59a" stroke-width="2" opacity=".38" stroke-dasharray="8 12"><animate attributeName="stroke-dashoffset" from="0" to="-100" dur="7s" repeatCount="indefinite"/></line>
 
 <g font-family="Inter,system-ui,sans-serif">
-<!-- CARD 1 -->
-<g transform="translate(125 210)"><rect width="330" height="590" rx="18" fill="#08251a" fill-opacity=".73" stroke="#1d7d4e"/><rect width="330" height="6" rx="3" fill="#35ee88"/>
-<text x="24" y="42" fill="#55ee96" font-family="ui-monospace,monospace" font-size="13" font-weight="800" letter-spacing="3">01 / WEB</text><text x="24" y="86" fill="#effff5" font-size="34" font-weight="900">MODERN WEB</text><text x="24" y="116" fill="#75b995" font-size="14">Interfaces • products • interaction</text>
-<g font-family="ui-monospace,monospace" font-size="14" font-weight="800" fill="#63ffa3" text-anchor="middle">
-<rect x="24" y="154" width="64" height="58" rx="12" fill="#092c1c" stroke="#1f7149"/><text x="56" y="189">RE</text><rect x="100" y="154" width="64" height="58" rx="12" fill="#092c1c" stroke="#1f7149"/><text x="132" y="189">NXT</text><rect x="176" y="154" width="64" height="58" rx="12" fill="#092c1c" stroke="#1f7149"/><text x="208" y="189">TS</text><rect x="252" y="154" width="54" height="58" rx="12" fill="#092c1c" stroke="#1f7149"/><text x="279" y="189">VITE</text>
-</g><text x="24" y="262" fill="#c8f4d9" font-size="14" font-weight="800">CORE TOOLCHAIN</text>
-<g fill="#8bcaa8" font-size="15"><text x="24" y="302">React</text><text x="180" y="302">Next.js</text><text x="24" y="342">TypeScript</text><text x="180" y="342">JavaScript</text><text x="24" y="382">Tailwind</text><text x="180" y="382">Vite</text><text x="24" y="422">HTML / CSS</text><text x="180" y="422">Responsive UI</text></g>
-<line x1="24" y1="460" x2="306" y2="460" stroke="#1c6b45"/><text x="24" y="500" fill="#58f99a" font-family="ui-monospace,monospace" font-size="12" font-weight="700">BUILD STATUS</text><text x="24" y="530" fill="#e6fff0" font-size="16">INTERFACES ONLINE</text><circle cx="285" cy="524" r="5" fill="#65ffa6" filter="url(#b)"><animate attributeName="opacity" values=".3;1;.3" dur="2s" repeatCount="indefinite"/></circle><rect x="24" y="554" width="282" height="6" rx="3" fill="#123d29"/><rect x="24" y="554" width="214" height="6" rx="3" fill="#45f896"><animate attributeName="width" values="90;214;170;214" dur="6s" repeatCount="indefinite"/></rect></g>
+  <g transform="translate(104 215)">
+    <rect width="354" height="575" rx="19" fill="#08271a" fill-opacity=".86" stroke="#238155" stroke-width="1.5"><animate attributeName="stroke-opacity" values=".55;1;.55" dur="5.2s" repeatCount="indefinite"/></rect>
+    <rect width="354" height="7" rx="3.5" fill="#42f493"/>
+    <text x="26" y="48" fill="#63f6a2" font-family="ui-monospace,monospace" font-size="18" font-weight="800" letter-spacing="2">01 / INTERFACE</text>
+    <text x="26" y="96" fill="#effff5" font-size="34" font-weight="900">MODERN WEB</text>
+    <text x="26" y="128" fill="#8ac9a8" font-size="20">Products • interfaces • UX</text>
 
-<!-- CARD 2 -->
-<g transform="translate(485 210)"><rect width="330" height="590" rx="18" fill="#08251a" fill-opacity=".73" stroke="#1d7d4e"/><rect width="330" height="6" rx="3" fill="#35ee88"/>
-<text x="24" y="42" fill="#55ee96" font-family="ui-monospace,monospace" font-size="13" font-weight="800" letter-spacing="3">02 / AI + ML</text><text x="24" y="86" fill="#effff5" font-size="34" font-weight="900">INTELLIGENCE</text><text x="24" y="116" fill="#75b995" font-size="14">Vision • inference • automation</text>
-<g font-family="ui-monospace,monospace" font-size="13" font-weight="800" fill="#63ffa3" text-anchor="middle"><rect x="24" y="154" width="64" height="58" rx="12" fill="#092c1c" stroke="#1f7149"/><text x="56" y="189">PY</text><rect x="100" y="154" width="64" height="58" rx="12" fill="#092c1c" stroke="#1f7149"/><text x="132" y="189">MP</text><rect x="176" y="154" width="64" height="58" rx="12" fill="#092c1c" stroke="#1f7149"/><text x="208" y="189">ONNX</text><rect x="252" y="154" width="54" height="58" rx="12" fill="#092c1c" stroke="#1f7149"/><text x="279" y="189">TFJS</text></g>
-<text x="24" y="262" fill="#c8f4d9" font-size="14" font-weight="800">APPLIED AI</text><g fill="#8bcaa8" font-size="15"><text x="24" y="302">MediaPipe</text><text x="180" y="302">ONNX Runtime</text><text x="24" y="342">TensorFlow.js</text><text x="180" y="342">Gesture AI</text><text x="24" y="382">Inference</text><text x="180" y="382">Computer Vision</text><text x="24" y="422">Data Pipelines</text><text x="180" y="422">Automation</text></g>
-<line x1="24" y1="460" x2="306" y2="460" stroke="#1c6b45"/><text x="24" y="500" fill="#58f99a" font-family="ui-monospace,monospace" font-size="12" font-weight="700">MODEL STATUS</text><text x="24" y="530" fill="#e6fff0" font-size="16">INFERENCE READY</text><circle cx="285" cy="524" r="5" fill="#65ffa6"><animate attributeName="r" values="4;8;4" dur="2.7s" repeatCount="indefinite"/></circle><rect x="24" y="554" width="282" height="6" rx="3" fill="#123d29"/><rect x="24" y="554" width="230" height="6" rx="3" fill="#45f896"><animate attributeName="width" values="110;230;190;230" dur="5s" repeatCount="indefinite"/></rect></g>
+    <g font-family="ui-monospace,monospace" font-size="19" font-weight="900" text-anchor="middle" fill="#74ffae">
+      <g><rect x="26" y="164" width="70" height="62" rx="13" fill="#092d1d" stroke="#267b50"/><text x="61" y="202">RE</text><animate attributeName="opacity" values=".65;1;.65" dur="3s" repeatCount="indefinite"/></g>
+      <g><rect x="108" y="164" width="70" height="62" rx="13" fill="#092d1d" stroke="#267b50"/><text x="143" y="202">NXT</text><animate attributeName="opacity" values=".65;1;.65" dur="3s" begin=".4s" repeatCount="indefinite"/></g>
+      <g><rect x="190" y="164" width="70" height="62" rx="13" fill="#092d1d" stroke="#267b50"/><text x="225" y="202">TS</text><animate attributeName="opacity" values=".65;1;.65" dur="3s" begin=".8s" repeatCount="indefinite"/></g>
+      <g><rect x="272" y="164" width="56" height="62" rx="13" fill="#092d1d" stroke="#267b50"/><text x="300" y="202">V</text><animate attributeName="opacity" values=".65;1;.65" dur="3s" begin="1.2s" repeatCount="indefinite"/></g>
+    </g>
 
-<!-- CARD 3 -->
-<g transform="translate(845 210)"><rect width="330" height="590" rx="18" fill="#08251a" fill-opacity=".73" stroke="#1d7d4e"/><rect width="330" height="6" rx="3" fill="#35ee88"/>
-<text x="24" y="42" fill="#55ee96" font-family="ui-monospace,monospace" font-size="13" font-weight="800" letter-spacing="3">03 / NATIVE</text><text x="24" y="86" fill="#effff5" font-size="34" font-weight="900">SYSTEMS</text><text x="24" y="116" fill="#75b995" font-size="14">Desktop • low-level • tooling</text>
-<g font-family="ui-monospace,monospace" font-size="13" font-weight="800" fill="#63ffa3" text-anchor="middle"><rect x="24" y="154" width="64" height="58" rx="12" fill="#092c1c" stroke="#1f7149"/><text x="56" y="189">C#</text><rect x="100" y="154" width="64" height="58" rx="12" fill="#092c1c" stroke="#1f7149"/><text x="132" y="189">SW</text><rect x="176" y="154" width="64" height="58" rx="12" fill="#092c1c" stroke="#1f7149"/><text x="208" y="189">JAVA</text><rect x="252" y="154" width="54" height="58" rx="12" fill="#092c1c" stroke="#1f7149"/><text x="279" y="189">C++</text></g>
-<text x="24" y="262" fill="#c8f4d9" font-size="14" font-weight="800">NATIVE TOOLCHAIN</text><g fill="#8bcaa8" font-size="15"><text x="24" y="302">C# / .NET</text><text x="180" y="302">Swift</text><text x="24" y="342">SwiftUI</text><text x="180" y="342">AppKit</text><text x="24" y="382">Java</text><text x="180" y="382">C / C++</text><text x="24" y="422">Bash / Unix</text><text x="180" y="422">MIPS</text></g>
-<line x1="24" y1="460" x2="306" y2="460" stroke="#1c6b45"/><text x="24" y="500" fill="#58f99a" font-family="ui-monospace,monospace" font-size="12" font-weight="700">SYSTEM STATUS</text><text x="24" y="530" fill="#e6fff0" font-size="16">TOOLS OPERATIONAL</text><circle cx="285" cy="524" r="5" fill="#65ffa6"><animate attributeName="opacity" values=".2;1;.2" dur="1.8s" repeatCount="indefinite"/></circle><rect x="24" y="554" width="282" height="6" rx="3" fill="#123d29"/><rect x="24" y="554" width="205" height="6" rx="3" fill="#45f896"><animate attributeName="width" values="130;205;160;205" dur="6.5s" repeatCount="indefinite"/></rect></g>
+    <text x="26" y="278" fill="#caffdc" font-size="21" font-weight="850">CORE TOOLCHAIN</text>
+    <g fill="#a2d2b6" font-size="20">
+      <text x="26" y="323">React • Next.js</text>
+      <text x="26" y="362">TypeScript • JavaScript</text>
+      <text x="26" y="401">Tailwind • Vite</text>
+      <text x="26" y="440">HTML / CSS • responsive UI</text>
+    </g>
+    <line x1="26" y1="482" x2="328" y2="482" stroke="#226c49"/>
+    <text x="26" y="522" fill="#5bf39e" font-family="ui-monospace,monospace" font-size="17" font-weight="800">STATUS / INTERFACES ONLINE</text>
+    <circle cx="316" cy="516" r="6" fill="#68ffab" filter="url(#blur)"><animate attributeName="r" values="4;8;4" dur="2.2s" repeatCount="indefinite"/></circle>
+  </g>
 
-<!-- CARD 4 -->
-<g transform="translate(1205 210)"><rect width="330" height="590" rx="18" fill="#08251a" fill-opacity=".73" stroke="#1d7d4e"/><rect width="330" height="6" rx="3" fill="#35ee88"/>
-<text x="24" y="42" fill="#55ee96" font-family="ui-monospace,monospace" font-size="13" font-weight="800" letter-spacing="3">04 / CREATIVE</text><text x="24" y="86" fill="#effff5" font-size="34" font-weight="900">INTERACTIVE</text><text x="24" y="116" fill="#75b995" font-size="14">Games • graphics • simulation</text>
-<g font-family="ui-monospace,monospace" font-size="13" font-weight="800" fill="#63ffa3" text-anchor="middle"><rect x="24" y="154" width="64" height="58" rx="12" fill="#092c1c" stroke="#1f7149"/><text x="56" y="189">UNITY</text><rect x="100" y="154" width="64" height="58" rx="12" fill="#092c1c" stroke="#1f7149"/><text x="132" y="189">3JS</text><rect x="176" y="154" width="64" height="58" rx="12" fill="#092c1c" stroke="#1f7149"/><text x="208" y="189">PYG</text><rect x="252" y="154" width="54" height="58" rx="12" fill="#092c1c" stroke="#1f7149"/><text x="279" y="189">SIM</text></g>
-<text x="24" y="262" fill="#c8f4d9" font-size="14" font-weight="800">CREATIVE SYSTEMS</text><g fill="#8bcaa8" font-size="15"><text x="24" y="302">Unity 2D</text><text x="180" y="302">Three.js</text><text x="24" y="342">Pygame</text><text x="180" y="342">Simulation</text><text x="24" y="382">Particles</text><text x="180" y="382">Graphics</text><text x="24" y="422">Game Logic</text><text x="180" y="422">Interaction</text></g>
-<line x1="24" y1="460" x2="306" y2="460" stroke="#1c6b45"/><text x="24" y="500" fill="#58f99a" font-family="ui-monospace,monospace" font-size="12" font-weight="700">RENDER STATUS</text><text x="24" y="530" fill="#e6fff0" font-size="16">SCENES ACTIVE</text><circle cx="285" cy="524" r="5" fill="#65ffa6"><animate attributeName="opacity" values=".2;1;.2" dur="2.4s" repeatCount="indefinite"/></circle><rect x="24" y="554" width="282" height="6" rx="3" fill="#123d29"/><rect x="24" y="554" width="222" height="6" rx="3" fill="#45f896"><animate attributeName="width" values="80;222;180;222" dur="5.8s" repeatCount="indefinite"/></rect></g>
+  <g transform="translate(472 215)">
+    <rect width="354" height="575" rx="19" fill="#08271a" fill-opacity=".86" stroke="#238155" stroke-width="1.5"><animate attributeName="stroke-opacity" values=".55;1;.55" dur="5.6s" begin=".4s" repeatCount="indefinite"/></rect>
+    <rect width="354" height="7" rx="3.5" fill="#42f493"/>
+    <text x="26" y="48" fill="#63f6a2" font-family="ui-monospace,monospace" font-size="18" font-weight="800" letter-spacing="2">02 / INTELLIGENCE</text>
+    <text x="26" y="96" fill="#effff5" font-size="34" font-weight="900">AI / ML</text>
+    <text x="26" y="128" fill="#8ac9a8" font-size="20">Vision • inference • automation</text>
+
+    <g font-family="ui-monospace,monospace" font-size="18" font-weight="900" text-anchor="middle" fill="#74ffae">
+      <g><rect x="26" y="164" width="70" height="62" rx="13" fill="#092d1d" stroke="#267b50"/><text x="61" y="202">PY</text><animate attributeName="opacity" values=".65;1;.65" dur="3.2s" repeatCount="indefinite"/></g>
+      <g><rect x="108" y="164" width="70" height="62" rx="13" fill="#092d1d" stroke="#267b50"/><text x="143" y="202">MP</text><animate attributeName="opacity" values=".65;1;.65" dur="3.2s" begin=".4s" repeatCount="indefinite"/></g>
+      <g><rect x="190" y="164" width="70" height="62" rx="13" fill="#092d1d" stroke="#267b50"/><text x="225" y="202">ONNX</text><animate attributeName="opacity" values=".65;1;.65" dur="3.2s" begin=".8s" repeatCount="indefinite"/></g>
+      <g><rect x="272" y="164" width="56" height="62" rx="13" fill="#092d1d" stroke="#267b50"/><text x="300" y="202">TF</text><animate attributeName="opacity" values=".65;1;.65" dur="3.2s" begin="1.2s" repeatCount="indefinite"/></g>
+    </g>
+
+    <text x="26" y="278" fill="#caffdc" font-size="21" font-weight="850">APPLIED AI</text>
+    <g fill="#a2d2b6" font-size="20">
+      <text x="26" y="323">MediaPipe • ONNX Runtime</text>
+      <text x="26" y="362">TensorFlow.js • BiGRU</text>
+      <text x="26" y="401">Gesture recognition</text>
+      <text x="26" y="440">Browser inference • automation</text>
+    </g>
+    <line x1="26" y1="482" x2="328" y2="482" stroke="#226c49"/>
+    <text x="26" y="522" fill="#5bf39e" font-family="ui-monospace,monospace" font-size="17" font-weight="800">STATUS / INFERENCE READY</text>
+    <circle cx="316" cy="516" r="6" fill="#68ffab"><animate attributeName="opacity" values=".25;1;.25" dur="2.1s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g transform="translate(840 215)">
+    <rect width="354" height="575" rx="19" fill="#08271a" fill-opacity=".86" stroke="#238155" stroke-width="1.5"><animate attributeName="stroke-opacity" values=".55;1;.55" dur="6s" begin=".8s" repeatCount="indefinite"/></rect>
+    <rect width="354" height="7" rx="3.5" fill="#42f493"/>
+    <text x="26" y="48" fill="#63f6a2" font-family="ui-monospace,monospace" font-size="18" font-weight="800" letter-spacing="2">03 / NATIVE</text>
+    <text x="26" y="96" fill="#effff5" font-size="34" font-weight="900">SYSTEMS</text>
+    <text x="26" y="128" fill="#8ac9a8" font-size="20">Desktop • low-level • tooling</text>
+
+    <g font-family="ui-monospace,monospace" font-size="18" font-weight="900" text-anchor="middle" fill="#74ffae">
+      <g><rect x="26" y="164" width="70" height="62" rx="13" fill="#092d1d" stroke="#267b50"/><text x="61" y="202">C#</text><animate attributeName="opacity" values=".65;1;.65" dur="3.4s" repeatCount="indefinite"/></g>
+      <g><rect x="108" y="164" width="70" height="62" rx="13" fill="#092d1d" stroke="#267b50"/><text x="143" y="202">SW</text><animate attributeName="opacity" values=".65;1;.65" dur="3.4s" begin=".4s" repeatCount="indefinite"/></g>
+      <g><rect x="190" y="164" width="70" height="62" rx="13" fill="#092d1d" stroke="#267b50"/><text x="225" y="202">JAVA</text><animate attributeName="opacity" values=".65;1;.65" dur="3.4s" begin=".8s" repeatCount="indefinite"/></g>
+      <g><rect x="272" y="164" width="56" height="62" rx="13" fill="#092d1d" stroke="#267b50"/><text x="300" y="202">C++</text><animate attributeName="opacity" values=".65;1;.65" dur="3.4s" begin="1.2s" repeatCount="indefinite"/></g>
+    </g>
+
+    <text x="26" y="278" fill="#caffdc" font-size="21" font-weight="850">NATIVE TOOLCHAIN</text>
+    <g fill="#a2d2b6" font-size="20">
+      <text x="26" y="323">C# / .NET • Swift</text>
+      <text x="26" y="362">SwiftUI • AppKit</text>
+      <text x="26" y="401">Java • C / C++</text>
+      <text x="26" y="440">Bash / Unix • MIPS</text>
+    </g>
+    <line x1="26" y1="482" x2="328" y2="482" stroke="#226c49"/>
+    <text x="26" y="522" fill="#5bf39e" font-family="ui-monospace,monospace" font-size="17" font-weight="800">STATUS / TOOLS OPERATIONAL</text>
+    <circle cx="316" cy="516" r="6" fill="#68ffab"><animate attributeName="r" values="4;8;4" dur="2.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g transform="translate(1208 215)">
+    <rect width="354" height="575" rx="19" fill="#08271a" fill-opacity=".86" stroke="#238155" stroke-width="1.5"><animate attributeName="stroke-opacity" values=".55;1;.55" dur="6.4s" begin="1.2s" repeatCount="indefinite"/></rect>
+    <rect width="354" height="7" rx="3.5" fill="#42f493"/>
+    <text x="26" y="48" fill="#63f6a2" font-family="ui-monospace,monospace" font-size="18" font-weight="800" letter-spacing="2">04 / CREATIVE</text>
+    <text x="26" y="96" fill="#effff5" font-size="34" font-weight="900">INTERACTIVE</text>
+    <text x="26" y="128" fill="#8ac9a8" font-size="20">Games • graphics • simulation</text>
+
+    <g font-family="ui-monospace,monospace" font-size="18" font-weight="900" text-anchor="middle" fill="#74ffae">
+      <g><rect x="26" y="164" width="70" height="62" rx="13" fill="#092d1d" stroke="#267b50"/><text x="61" y="202">UNITY</text><animate attributeName="opacity" values=".65;1;.65" dur="3.6s" repeatCount="indefinite"/></g>
+      <g><rect x="108" y="164" width="70" height="62" rx="13" fill="#092d1d" stroke="#267b50"/><text x="143" y="202">3JS</text><animate attributeName="opacity" values=".65;1;.65" dur="3.6s" begin=".4s" repeatCount="indefinite"/></g>
+      <g><rect x="190" y="164" width="70" height="62" rx="13" fill="#092d1d" stroke="#267b50"/><text x="225" y="202">PYG</text><animate attributeName="opacity" values=".65;1;.65" dur="3.6s" begin=".8s" repeatCount="indefinite"/></g>
+      <g><rect x="272" y="164" width="56" height="62" rx="13" fill="#092d1d" stroke="#267b50"/><text x="300" y="202">SIM</text><animate attributeName="opacity" values=".65;1;.65" dur="3.6s" begin="1.2s" repeatCount="indefinite"/></g>
+    </g>
+
+    <text x="26" y="278" fill="#caffdc" font-size="21" font-weight="850">CREATIVE SYSTEMS</text>
+    <g fill="#a2d2b6" font-size="20">
+      <text x="26" y="323">Unity 2D • Three.js</text>
+      <text x="26" y="362">Pygame • simulation</text>
+      <text x="26" y="401">Particle systems</text>
+      <text x="26" y="440">Game logic • interaction</text>
+    </g>
+    <line x1="26" y1="482" x2="328" y2="482" stroke="#226c49"/>
+    <text x="26" y="522" fill="#5bf39e" font-family="ui-monospace,monospace" font-size="17" font-weight="800">STATUS / SCENES ACTIVE</text>
+    <circle cx="316" cy="516" r="6" fill="#68ffab"><animate attributeName="opacity" values=".25;1;.25" dur="2.8s" repeatCount="indefinite"/></circle>
+  </g>
 </g>
-<text x="832" y="860" text-anchor="middle" fill="#2e9d68" font-family="ui-monospace,monospace" font-size="12" font-weight="800" letter-spacing="5">SYSTEMS CONNECTED // 4 DOMAINS // CONTINUOUS LEARNING // BUILD • SHIP • IMPROVE</text>
-<circle cx="520" cy="860" r="3" fill="#41f592"><animate attributeName="cx" values="520;1140;520" dur="9s" repeatCount="indefinite"/></circle>
+
+<g opacity=".45">
+  <path d="M140 842H1524" stroke="#36e887" stroke-width="2" stroke-dasharray="10 18"><animate attributeName="stroke-dashoffset" values="0;-140" dur="9s" repeatCount="indefinite"/></path>
+  <circle r="6" fill="#6effad" filter="url(#blur)"><animateMotion dur="9s" repeatCount="indefinite" path="M140 842H1524"/></circle>
+</g>
+<text x="832" y="882" text-anchor="middle" fill="#3da875" font-family="ui-monospace,monospace" font-size="17" font-weight="800" letter-spacing="4">4 DOMAINS CONNECTED // BUILD • SHIP • LEARN • IMPROVE</text>
 </svg>
