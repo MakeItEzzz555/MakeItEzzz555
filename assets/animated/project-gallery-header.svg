@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1664" height="340" viewBox="0 0 1664 340">
+<defs>
+  <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse">
+    <path d="M52 0H0V52" fill="none" stroke="#174a35" stroke-width="1.2" opacity=".3"/>
+    <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="-52 52" dur="20s" repeatCount="indefinite"/>
+  </pattern>
+  <radialGradient id="halo"><stop offset="0" stop-color="#32ff91" stop-opacity=".16"/><stop offset="1" stop-color="#03110b" stop-opacity="0"/></radialGradient>
+  <linearGradient id="scan" x1="0" x2="1"><stop stop-color="#4cff9d" stop-opacity="0"/><stop offset=".5" stop-color="#4cff9d" stop-opacity=".17"/><stop offset="1" stop-color="#4cff9d" stop-opacity="0"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect width="1664" height="340" rx="22" fill="#07100e"/>
+<rect x="34" y="22" width="1596" height="296" rx="24" fill="#04140d" stroke="#1b6848" stroke-width="1.5"/>
+<rect x="34" y="22" width="1596" height="296" rx="24" fill="url(#grid)"/>
+<rect width="1664" height="340" fill="url(#halo)"><animate attributeName="opacity" values=".45;1;.45" dur="9s" repeatCount="indefinite"/></rect>
+<rect x="-220" y="24" width="220" height="292" fill="url(#scan)"><animate attributeName="x" values="-220;1664;-220" dur="14s" repeatCount="indefinite"/></rect>
+
+<g stroke="#45ff99" stroke-width="2.3" opacity=".58">
+  <path d="M68 76V44h38"/><path d="M1558 44h38v32"/><path d="M68 264v32h38"/><path d="M1558 296h38v-32"/>
+</g>
+
+<!-- gallery frame / camera glyph -->
+<g transform="translate(252 79)" fill="none" stroke="#57f89f" stroke-width="5">
+  <rect x="0" y="28" width="190" height="130" rx="18"/>
+  <path d="M42 28l20-28h68l20 28"/>
+  <circle cx="95" cy="93" r="38"/>
+  <circle cx="95" cy="93" r="15"><animate attributeName="r" values="11;18;11" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="157" cy="56" r="8" fill="#57f89f"><animate attributeName="opacity" values=".2;1;.2" dur="2.2s" repeatCount="indefinite"/></circle>
+</g>
+
+<text x="960" y="118" text-anchor="middle" fill="#56f49a" font-family="Inter,system-ui,sans-serif" font-size="54" font-weight="900">VISUAL PROJECT ARCHIVE</text>
+<text x="960" y="164" text-anchor="middle" fill="#77cda0" font-family="ui-monospace,monospace" font-size="19" font-weight="800" letter-spacing="5">REAL BUILDS / REAL INTERFACES / REAL OUTPUT</text>
+<text x="960" y="212" text-anchor="middle" fill="#a5d4b8" font-family="Inter,system-ui,sans-serif" font-size="22">Screenshots from projects already preserved directly inside this profile repository.</text>
+
+<line x1="560" y1="258" x2="1360" y2="258" stroke="#36e887" stroke-width="2.2" stroke-dasharray="9 15" opacity=".52"><animate attributeName="stroke-dashoffset" values="0;-144" dur="8s" repeatCount="indefinite"/></line>
+<circle r="7" fill="#9effc7" filter="url(#blur)"><animateMotion dur="8s" repeatCount="indefinite" path="M560 258H1360"/></circle>
+<text x="960" y="298" text-anchor="middle" fill="#3baa73" font-family="ui-monospace,monospace" font-size="17" font-weight="800">13 CAPTURED PROJECTS // EXPLORE THE REPOSITORIES BELOW</text>
+</svg>
