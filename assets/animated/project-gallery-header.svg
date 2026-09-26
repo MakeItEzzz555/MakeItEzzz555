@@ -33,5 +33,5 @@
 
 <line x1="560" y1="258" x2="1360" y2="258" stroke="#36e887" stroke-width="2.2" stroke-dasharray="9 15" opacity=".52"><animate attributeName="stroke-dashoffset" values="0;-144" dur="8s" repeatCount="indefinite"/></line>
 <circle r="7" fill="#9effc7" filter="url(#blur)"><animateMotion dur="8s" repeatCount="indefinite" path="M560 258H1360"/></circle>
-<text x="960" y="298" text-anchor="middle" fill="#3baa73" font-family="ui-monospace,monospace" font-size="17" font-weight="800">13 CAPTURED PROJECTS // EXPLORE THE REPOSITORIES BELOW</text>
+<text x="960" y="298" text-anchor="middle" fill="#3baa73" font-family="ui-monospace,monospace" font-size="17" font-weight="800">13 PROJECT VISUALS // EXPLORE THE REPOSITORIES BELOW</text>
 </svg>
