@@ -1,255 +1,181 @@
 <p align="center">
-  <img
-    width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&height=270&color=0:00C2FF,50:7A5CFF,100:FF4ECD&text=MakeItEzzz555&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Computer%20Science%20%E2%80%A2%20Full-Stack%20%E2%80%A2%20AI%2FML%20%E2%80%A2%20Systems%20%E2%80%A2%20Creative%20Coding&descAlignY=58&descSize=17"
-    alt="Profile header"
-  />
-</p>
-
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img
-      src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=7A5CFF&center=true&vCenter=true&width=760&lines=Building+across+Web+%E2%80%A2+Desktop+%E2%80%A2+AI+%E2%80%A2+Games;Turning+ideas+into+working+software;Full-stack+%2B+systems+%2B+creative+engineering;Always+building.+Always+learning."
-      alt="Typing animation"
-    />
-  </a>
+  <img src="./assets/animated/hero.svg" width="100%" alt="Nicolas Savvides — MakeItEzzz555 animated engineering profile header" />
 </p>
 
 <p align="center">
   <a href="https://github.com/MakeItEzzz555?tab=followers">
-    <img src="https://img.shields.io/github/followers/MakeItEzzz555?style=for-the-badge&logo=github&label=Followers" alt="GitHub followers"/>
+    <img src="https://img.shields.io/github/followers/MakeItEzzz555?style=for-the-badge&logo=github&label=FOLLOWERS&labelColor=06170F&color=1F7A4F&logoColor=7DFFB4" alt="GitHub followers" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=MakeItEzzz555&style=for-the-badge&color=7A5CFF&label=PROFILE+VIEWS" alt="Profile views"/>
-</p>
-
----
-
-## 👾 About Me
-
-I'm a Computer Science student who likes building across multiple layers of software instead of staying inside one stack.
-
-My projects range from **full-stack platforms and AI/ML experiments** to **native desktop apps, systems work, game development, creative coding, cryptography tools, and automation**.
-
-I enjoy taking an idea from:
-
-**concept → architecture → implementation → debugging → something you can actually use.**
-
-```text
-focus       → product engineering, AI/ML, full-stack, desktop & systems
-approach    → learn by building
-interests   → useful tools, experimental interfaces, automation & creative tech
-philosophy  → ship it, break it, understand it, improve it
-```
-
----
-
-## ⚡ Technologies I've Worked With
-
-### Languages
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,python,cs,java,cpp,c,php,swift,bash,html,css&perline=12" alt="Languages"/>
-</p>
-
-### Frameworks & Platforms
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,vite,tailwind,flask,dotnet,unity,mysql,arduino&perline=10" alt="Frameworks"/>
-</p>
-
-### Tools
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,visualstudio,idea,npm&perline=8" alt="Tools"/>
+  <img src="https://komarev.com/ghpvc/?username=MakeItEzzz555&style=for-the-badge&color=1F7A4F&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logo=google&logoColor=white" alt="MediaPipe"/>
-  <img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white" alt="ONNX"/>
-  <img src="https://img.shields.io/badge/SwiftUI-0D96F6?style=flat-square&logo=swift&logoColor=white" alt="SwiftUI"/>
-  <img src="https://img.shields.io/badge/AppKit-000000?style=flat-square&logo=apple&logoColor=white" alt="AppKit"/>
-  <img src="https://img.shields.io/badge/WASAPI-512BD4?style=flat-square&logo=windows&logoColor=white" alt="WASAPI"/>
-  <img src="https://img.shields.io/badge/MIPS-Assembly-555555?style=flat-square" alt="MIPS Assembly"/>
+  <a href="https://github.com/MakeItEzzz555?tab=repositories"><img src="./assets/animated/nav-repositories.svg" width="31%" alt="Repositories" /></a>
+  <a href="https://github.com/MakeItEzzz555/frederick-university-coursework"><img src="./assets/animated/nav-coursework.svg" width="31%" alt="Coursework" /></a>
+  <a href="https://github.com/MakeItEzzz555?tab=followers"><img src="./assets/animated/nav-follow.svg" width="31%" alt="Follow" /></a>
 </p>
 
----
+<br>
 
-## 🚀 Featured Projects
-
-### 🔮 PredictX
-
-**Full-stack prediction-market platform** with Yes/No contracts, live order books and price feeds, portfolio tracking, Stripe-backed deposits, market categories and an AI chat assistant.
-
-<p>
-  <a href="https://github.com/MakeItEzzz555/predictx"><img src="https://img.shields.io/badge/View_PredictX-181717?style=for-the-badge&logo=github&logoColor=white" alt="View PredictX"/></a>
-  <img src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+<p align="center">
+  <img src="./assets/animated/technology-universe.svg" width="100%" alt="Animated technology universe" />
 </p>
 
-### 🎧 AirPTTBridge
+<p align="center"><sub><strong>TOOLCHAIN SIGNALS</strong> // languages · frameworks · native · systems · ML · creative tooling</sub></p>
+<p align="center"><img src="https://cdn.simpleicons.org/typescript/7DFFB4" width="34" height="34" alt="TypeScript" title="TypeScript" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/javascript/7DFFB4" width="34" height="34" alt="JavaScript" title="JavaScript" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/python/7DFFB4" width="34" height="34" alt="Python" title="Python" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/csharp/7DFFB4" width="34" height="34" alt="C#" title="C#" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/openjdk/7DFFB4" width="34" height="34" alt="Java" title="Java" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/cplusplus/7DFFB4" width="34" height="34" alt="C++" title="C++" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/c/7DFFB4" width="34" height="34" alt="C" title="C" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/php/7DFFB4" width="34" height="34" alt="PHP" title="PHP" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/swift/7DFFB4" width="34" height="34" alt="Swift" title="Swift" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/gnubash/7DFFB4" width="34" height="34" alt="Bash" title="Bash" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/html5/7DFFB4" width="34" height="34" alt="HTML5" title="HTML5" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/css3/7DFFB4" width="34" height="34" alt="CSS3" title="CSS3" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/mysql/7DFFB4" width="34" height="34" alt="MySQL" title="MySQL" /></p>
+<p align="center"><img src="https://cdn.simpleicons.org/react/7DFFB4" width="34" height="34" alt="React" title="React" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/nextdotjs/7DFFB4" width="34" height="34" alt="Next.js" title="Next.js" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/nodedotjs/7DFFB4" width="34" height="34" alt="Node.js" title="Node.js" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/vite/7DFFB4" width="34" height="34" alt="Vite" title="Vite" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/tailwindcss/7DFFB4" width="34" height="34" alt="Tailwind CSS" title="Tailwind CSS" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/flask/7DFFB4" width="34" height="34" alt="Flask" title="Flask" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/dotnet/7DFFB4" width="34" height="34" alt=".NET" title=".NET" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/unity/7DFFB4" width="34" height="34" alt="Unity" title="Unity" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/threedotjs/7DFFB4" width="34" height="34" alt="Three.js" title="Three.js" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/arduino/7DFFB4" width="34" height="34" alt="Arduino" title="Arduino" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/git/7DFFB4" width="34" height="34" alt="Git" title="Git" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/github/7DFFB4" width="34" height="34" alt="GitHub" title="GitHub" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/visualstudiocode/7DFFB4" width="34" height="34" alt="VS Code" title="VS Code" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/onnx/7DFFB4" width="34" height="34" alt="ONNX" title="ONNX" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/tensorflow/7DFFB4" width="34" height="34" alt="TensorFlow" title="TensorFlow" /></p>
 
-**Windows 11 push-to-talk audio bridge** that opens the physical AirPods microphone only while the configured PTT key is held, routes live audio through a virtual cable, and releases the capture endpoint after key-up.
+<br>
+
+<p align="center">
+  <img src="./assets/animated/system-architecture.svg" width="100%" alt="Animated engineering system architecture" />
+</p>
+
+<p align="center">
+  <img src="./assets/animated/ai-engineering.svg" width="100%" alt="Animated AI engineering panel" />
+</p>
+
+<p align="center">
+  <img src="./assets/animated/project-ecosystem.svg" width="100%" alt="Animated project ecosystem" />
+</p>
+
+<p align="center">
+  <img src="./assets/animated/contribution-activity.svg" width="100%" alt="Live animated GitHub contribution telemetry" />
+</p>
+
+<p align="center">
+  <img src="./assets/animated/streak-header.svg" width="100%" alt="Animated GitHub contribution streak header" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=MakeItEzzz555&hide_border=false&border_radius=18&background=04140D&border=1B6848&stroke=1B6848&ring=4DF394&fire=4DF394&currStreakNum=EFFFF5&sideNums=EFFFF5&currStreakLabel=7DFFB4&sideLabels=7DFFB4&dates=6F9E83" alt="GitHub contribution streak" />
+</p>
+
+<p align="center">
+  <img src="./assets/animated/engineering-philosophy.svg" width="100%" alt="Animated engineering practice and philosophy" />
+</p>
+
+<br>
+
+<p align="center">
+  <img src="./assets/animated/project-gallery-header.svg" width="100%" alt="Animated visual project archive header" />
+</p>
+
 
 <p align="center">
   <a href="https://github.com/MakeItEzzz555/AirPTTBridge">
-    <img src="assets/projects/airpttbridge.png" alt="AirPTTBridge Windows setup and system check" width="70%">
+    <img src="assets/projects/airpttbridge.png" alt="AirPTTBridge Windows setup and system check" width="72%" />
   </a>
 </p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/C%23-.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="C# and .NET"/>
-  <img src="https://img.shields.io/badge/Windows_11-0078D4?style=for-the-badge&logo=windows11&logoColor=white" alt="Windows 11"/>
-  <img src="https://img.shields.io/badge/WASAPI-Audio_Routing-512BD4?style=for-the-badge" alt="WASAPI audio routing"/>
-</p>
-
-### 🎬 Project Gallery
+<h3 align="center">AirPTTBridge</h3>
+<p align="center"><strong>Windows push-to-talk audio bridge</strong><br>C# · .NET · WASAPI · Windows audio routing</p>
+<p align="center"><img src="https://cdn.simpleicons.org/csharp/7DFFB4" width="22" height="22" alt="C#" title="C#" />&nbsp;<img src="https://cdn.simpleicons.org/dotnet/7DFFB4" width="22" height="22" alt=".NET" title=".NET" />&nbsp;<img src="https://cdn.simpleicons.org/windows11/7DFFB4" width="22" height="22" alt="Windows 11" title="Windows 11" /></p>
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<h3 align="center">🤟 SignAI</h3>
+<h3 align="center">SignAI / Gesto</h3>
 <a href="https://github.com/MakeItEzzz555/signai-asl-gesture-demo"><img src="assets/projects/signai.png" alt="SignAI ASL Gesture Recognition" width="100%"></a>
-<p align="center"><strong>Browser-based ASL gesture recognition</strong><br>MediaPipe · ONNX Runtime Web · TensorFlow.js · TypeScript</p>
+<p align="center"><strong>Browser-based gesture recognition</strong><br>MediaPipe · ONNX Runtime · TensorFlow.js · TypeScript</p>
+<p align="center"><img src="https://cdn.simpleicons.org/typescript/7DFFB4" width="22" height="22" alt="TypeScript" title="TypeScript" />&nbsp;<img src="https://cdn.simpleicons.org/onnx/7DFFB4" width="22" height="22" alt="ONNX" title="ONNX" />&nbsp;<img src="https://cdn.simpleicons.org/tensorflow/7DFFB4" width="22" height="22" alt="TensorFlow" title="TensorFlow" /></p>
 </td>
 <td width="50%" valign="top">
-<h3 align="center">🧑‍🏫 SkillShare Local</h3>
+<h3 align="center">SkillShare Local</h3>
 <a href="https://github.com/MakeItEzzz555/skillshare-local"><img src="assets/projects/skillshare.png" alt="SkillShare Local session directory" width="100%"></a>
 <p align="center"><strong>Role-based learning-session platform</strong><br>PHP · MySQL · Sessions · Bookings · Ratings</p>
+<p align="center"><img src="https://cdn.simpleicons.org/php/7DFFB4" width="22" height="22" alt="PHP" title="PHP" />&nbsp;<img src="https://cdn.simpleicons.org/mysql/7DFFB4" width="22" height="22" alt="MySQL" title="MySQL" /></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h3 align="center">♻️ Swapee</h3>
+<h3 align="center">Swapee</h3>
 <a href="https://github.com/MakeItEzzz555/swapee-reuse-marketplace"><img src="assets/projects/swapee.png" alt="Swapee reuse marketplace" width="100%"></a>
-<p align="center"><strong>Swap, donate and sell marketplace prototype</strong><br>PHP · MySQL · Listings · Transactions · Impact profiles</p>
+<p align="center"><strong>Swap, donate and resale marketplace</strong><br>PHP · MySQL · Listings · Transactions · Ratings</p>
+<p align="center"><img src="https://cdn.simpleicons.org/php/7DFFB4" width="22" height="22" alt="PHP" title="PHP" />&nbsp;<img src="https://cdn.simpleicons.org/mysql/7DFFB4" width="22" height="22" alt="MySQL" title="MySQL" /></p>
 </td>
 <td width="50%" valign="top">
-<h3 align="center">₿ BTC Price Prediction</h3>
+<h3 align="center">BTC Price Prediction</h3>
 <a href="https://github.com/MakeItEzzz555/BTC-Price-Prediction"><img src="assets/projects/btc-prediction.png" alt="Bitcoin Price Prediction dashboard" width="100%"></a>
-<p align="center"><strong>Rule-based market-signal forecast dashboard</strong><br>Python · Flask · CoinGecko · yfinance</p>
+<p align="center"><strong>Market-signal forecast dashboard</strong><br>Python · Flask · market data APIs</p>
+<p align="center"><img src="https://cdn.simpleicons.org/python/7DFFB4" width="22" height="22" alt="Python" title="Python" />&nbsp;<img src="https://cdn.simpleicons.org/flask/7DFFB4" width="22" height="22" alt="Flask" title="Flask" />&nbsp;<img src="https://cdn.simpleicons.org/bitcoin/7DFFB4" width="22" height="22" alt="Bitcoin" title="Bitcoin" /></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h3 align="center">🔐 Browser PGP Tool</h3>
+<h3 align="center">Browser PGP Tool</h3>
 <a href="https://github.com/MakeItEzzz555/browser-pgp-tool"><img src="assets/projects/browser-pgp.png" alt="Browser OpenPGP encryption tool" width="100%"></a>
-<p align="center"><strong>Browser-only OpenPGP utility</strong><br>JavaScript · OpenPGP.js · Encryption · Signing · Verification</p>
+<p align="center"><strong>Browser-only OpenPGP utility</strong><br>JavaScript · encryption · signing · verification</p>
+<p align="center"><img src="https://cdn.simpleicons.org/javascript/7DFFB4" width="22" height="22" alt="JavaScript" title="JavaScript" /></p>
 </td>
 <td width="50%" valign="top">
-<h3 align="center">⚛️ Particle Physics</h3>
+<h3 align="center">Particle Physics</h3>
 <a href="https://github.com/MakeItEzzz555/browser-particle-physics"><img src="assets/projects/particle-physics.png" alt="Interactive browser particle physics sandbox" width="100%"></a>
-<p align="center"><strong>Interactive browser physics experiment</strong><br>Three.js · JavaScript · Simulation · Creative coding</p>
+<p align="center"><strong>Interactive browser physics experiment</strong><br>Three.js · JavaScript · simulation · creative coding</p>
+<p align="center"><img src="https://cdn.simpleicons.org/threedotjs/7DFFB4" width="22" height="22" alt="Three.js" title="Three.js" />&nbsp;<img src="https://cdn.simpleicons.org/javascript/7DFFB4" width="22" height="22" alt="JavaScript" title="JavaScript" /></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h3 align="center">📸 Studio Photosynthesis</h3>
+<h3 align="center">Studio Photosynthesis</h3>
 <a href="https://github.com/MakeItEzzz555/studio-photosynthesis-web"><img src="assets/projects/studio-photosynthesis.png" alt="Studio Photosynthesis photography website" width="100%"></a>
-<p align="center"><strong>Cinematic photography studio website</strong><br>React · TypeScript · Tailwind CSS · Framer Motion</p>
+<p align="center"><strong>Cinematic photography studio website</strong><br>React · TypeScript · Tailwind CSS · motion</p>
+<p align="center"><img src="https://cdn.simpleicons.org/react/7DFFB4" width="22" height="22" alt="React" title="React" />&nbsp;<img src="https://cdn.simpleicons.org/typescript/7DFFB4" width="22" height="22" alt="TypeScript" title="TypeScript" />&nbsp;<img src="https://cdn.simpleicons.org/tailwindcss/7DFFB4" width="22" height="22" alt="Tailwind CSS" title="Tailwind CSS" /></p>
 </td>
 <td width="50%" valign="top">
-<h3 align="center">✨ Pygame Particle Layers</h3>
+<h3 align="center">Pygame Particle Layers</h3>
 <a href="https://github.com/MakeItEzzz555/pygame-particle-layers"><img src="assets/projects/pygame-particles.png" alt="Pygame particle layer effect" width="100%"></a>
-<p align="center"><strong>Layered particle animation experiment</strong><br>Python · Pygame · Visual effects · Creative coding</p>
+<p align="center"><strong>Layered particle-animation experiment</strong><br>Python · Pygame · visual effects · creative coding</p>
+<p align="center"><img src="https://cdn.simpleicons.org/python/7DFFB4" width="22" height="22" alt="Python" title="Python" /></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+<h3 align="center">DynamicIsland</h3>
+<img src="assets/projects/dynamic-island.jpg" alt="DynamicIsland native macOS expanded workspace with media, Live Activities and shortcuts" width="100%">
+<p align="center"><strong>Native macOS notch workspace</strong><br>Swift · SwiftUI · AppKit · media controls · Live Activities · shortcuts</p>
+<p align="center"><img src="https://cdn.simpleicons.org/swift/7DFFB4" width="22" height="22" alt="Swift" title="Swift" />&nbsp;<img src="https://cdn.simpleicons.org/apple/7DFFB4" width="22" height="22" alt="Apple" title="macOS" /></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+<h3 align="center">Dungeon Escape</h3>
+<a href="https://github.com/MakeItEzzz555/Dungeon_Escape_Project"><img src="https://raw.githubusercontent.com/MakeItEzzz555/Dungeon_Escape_Project/main/Assets/DU_UI_HUD_Free/GamesTitleBanner.png" alt="Dungeon Escape project banner from the repository README" width="100%"></a>
+<p align="center"><strong>Unity 6 top-down dungeon action/adventure</strong><br>Unity · C# · URP · combat · enemy FSMs · bosses · hazards · progression</p>
+<p align="center"><img src="https://cdn.simpleicons.org/unity/7DFFB4" width="22" height="22" alt="Unity" title="Unity" />&nbsp;<img src="https://cdn.simpleicons.org/dotnet/7DFFB4" width="22" height="22" alt=".NET / C#" title="C#" /></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3 align="center">Student Timetable Manager</h3>
+<a href="https://github.com/MakeItEzzz555/student-timetable-manager-acsc382-assignment-2"><img src="assets/projects/student-timetable.png" alt="Student Timetable Manager Swing application" width="100%"></a>
+<p align="center"><strong>Desktop timetable-management application</strong><br>Java · Swing · file-backed student/course workflows</p>
+<p align="center"><img src="https://cdn.simpleicons.org/openjdk/7DFFB4" width="22" height="22" alt="Java" title="Java" /></p>
+</td>
+<td width="50%" valign="top">
+<h3 align="center">JavaFX Particle Animation</h3>
+<a href="https://github.com/MakeItEzzz555/javafx-particle-animation"><img src="assets/projects/javafx-particles.png" alt="JavaFX particle animation canvas" width="100%"></a>
+<p align="center"><strong>Animated JavaFX particle canvas</strong><br>Java · JavaFX · canvas rendering · particle motion</p>
+<p align="center"><img src="https://cdn.simpleicons.org/openjdk/7DFFB4" width="22" height="22" alt="Java" title="Java" /></p>
 </td>
 </tr>
 </table>
 
-<details>
-<summary><strong>🧩 More Builds & Prototypes</strong></summary>
+
+<p align="center">
+  <sub>Visual archive combines real project screenshots stored in this profile with visuals sourced from the projects themselves. Builds without a suitable captured interface remain represented in the Project Ecosystem above.</sub>
+</p>
+
 <br>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3 align="center">🚗 Open Roads</h3>
-<a href="https://github.com/MakeItEzzz555/open-roads-driving-demo"><img src="assets/projects/open-roads.png" alt="Open Roads driving demo" width="100%"></a>
-<p align="center"><strong>Browser driving experiment</strong><br>3D scene · vehicle controls · interactive prototype</p>
-</td>
-<td width="50%" valign="top">
-<h3 align="center">🅿️ Smart Parking</h3>
-<a href="https://github.com/MakeItEzzz555/smart-parking-prototype"><img src="assets/projects/smart-parking.png" alt="Smart Parking booking prototype" width="100%"></a>
-<p align="center"><strong>Parking-slot booking prototype</strong><br>Interactive UI · availability states · booking flow</p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3 align="center">💃 House of Dance Strofes</h3>
-<a href="https://github.com/MakeItEzzz555/house-of-dance-strofes"><img src="assets/projects/house-of-dance.png" alt="House of Dance Strofes website" width="100%"></a>
-<p align="center"><strong>Modern dance-school website</strong><br>Responsive web design · branded landing experience</p>
-</td>
-<td width="50%" valign="top">
-<h3 align="center">🧸 Mummy Cool Kindergarten</h3>
-<a href="https://github.com/MakeItEzzz555/mummy-cool-kindergarten-modernized"><img src="assets/projects/mummy-cool.png" alt="Mummy Cool Kindergarten facilities page" width="100%"></a>
-<p align="center"><strong>Modernized kindergarten website</strong><br>Responsive UI · information architecture · service pages</p>
-</td>
-</tr>
-</table>
-
-</details>
-
----
-
-## 🧠 What I Build
-
-| Area                      | Some of my work                                                              |
-| ------------------------- | ---------------------------------------------------------------------------- |
-| 🤖 **AI / ML**            | SignAI ASL gesture recognition, ONNX inference, MediaPipe pipelines          |
-| 🌐 **Full-Stack Web**     | PredictX, SkillShare Local, Swapee, React / Next.js applications             |
-| 🖥️ **Desktop & Systems** | AirPTTBridge, Java/JavaFX apps, C/C++, Bash/Unix coursework                  |
-| 🎮 **Games & Graphics**   | Unity development, Three.js experiments, Pygame and browser particle systems |
-| 🔐 **Security / Tools**   | Browser OpenPGP utility, archive risk scanner                                |
-| 📊 **Data / Prediction**  | BTC Price Prediction, SQL/MySQL projects and data-driven applications        |
-
----
-
-## 🎓 Computer Science Archive
-
-<p align="center">
-  <a href="https://github.com/MakeItEzzz555/frederick-university-coursework"><img src="https://img.shields.io/badge/Frederick_University-Coursework_Archive-7A5CFF?style=for-the-badge&logo=github&logoColor=white" alt="Frederick University Coursework"/></a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/85-Coursework_Units-00C2FF?style=flat-square" alt="85 coursework units"/>
-  <img src="https://img.shields.io/badge/15-Organized_Course_Locations-7A5CFF?style=flat-square" alt="15 course locations"/>
-</p>
-
-The archive consolidates smaller labs, tutorials, revision exercises and exam practice across programming fundamentals, operating systems, system programming, web development, Python, Java, data structures, UNIX shell work and MIPS assembly. Substantial applications stay in their own repositories.
-
----
-
-## 📈 GitHub Activity
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=MakeItEzzz555&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub contribution streak"/>
-</p>
-
-<p align="center"><sub>Project previews above are stored directly in this profile repository for reliable rendering.</sub></p>
-
----
-
-## 🌌 Beyond the Pins
-
-There's more throughout the profile — web experiments, desktop applications, university projects, simulations, creative coding, automation, and older work preserved as part of the journey.
 
 <p align="center">
   <a href="https://github.com/MakeItEzzz555?tab=repositories">
-    <img src="https://img.shields.io/badge/Explore_All_Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories"/>
+    <img src="https://img.shields.io/badge/EXPLORE_ALL_REPOSITORIES-0B2B1D?style=for-the-badge&logo=github&logoColor=7DFFB4" alt="Explore all repositories" />
+  </a>
+  <a href="https://github.com/MakeItEzzz555/frederick-university-coursework">
+    <img src="https://img.shields.io/badge/COURSEWORK_ARCHIVE-0B2B1D?style=for-the-badge&logo=github&logoColor=7DFFB4" alt="Coursework archive" />
   </a>
 </p>
 
----
-
-<h3 align="center">
-  Build things. Understand them. Make the next version better.
-</h3>
-
 <p align="center">
-  <img
-    width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:00C2FF,50:7A5CFF,100:FF4ECD"
-    alt="Footer"
-  />
+  <img src="./assets/animated/footer.svg" width="100%" alt="Animated profile footer — Beyond the Pins" />
 </p>

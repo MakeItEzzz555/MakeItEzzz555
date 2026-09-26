@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1664" height="420" viewBox="0 0 1664 420">
+<defs>
+  <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse">
+    <path d="M52 0H0V52" fill="none" stroke="#174a35" stroke-width="1.2" opacity=".28"/>
+    <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="-52 52" dur="22s" repeatCount="indefinite"/>
+  </pattern>
+  <linearGradient id="wave1" x1="0" x2="1">
+    <stop offset="0" stop-color="#082d20"/><stop offset=".5" stop-color="#22b86f"/><stop offset="1" stop-color="#061a13"/>
+  </linearGradient>
+  <linearGradient id="wave2" x1="0" x2="1">
+    <stop offset="0" stop-color="#0a4b32"/><stop offset=".5" stop-color="#43f493"/><stop offset="1" stop-color="#0a3526"/>
+  </linearGradient>
+  <radialGradient id="halo"><stop offset="0" stop-color="#32ff91" stop-opacity=".14"/><stop offset="1" stop-color="#03110b" stop-opacity="0"/></radialGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+
+<rect width="1664" height="420" rx="22" fill="#07100e"/>
+<rect x="34" y="20" width="1596" height="378" rx="24" fill="#04140d" stroke="#1b6848" stroke-width="1.5"/>
+<rect x="34" y="20" width="1596" height="378" rx="24" fill="url(#grid)"/>
+<rect width="1664" height="420" fill="url(#halo)"><animate attributeName="opacity" values=".5;1;.5" dur="9s" repeatCount="indefinite"/></rect>
+
+<!-- animated top data bus -->
+<line x1="120" y1="72" x2="1544" y2="72" stroke="#3eea8b" stroke-width="2.2" stroke-dasharray="9 16" opacity=".48">
+  <animate attributeName="stroke-dashoffset" values="0;-150" dur="8s" repeatCount="indefinite"/>
+</line>
+<circle r="7" fill="#9effc7" filter="url(#blur)"><animateMotion dur="8s" repeatCount="indefinite" path="M120 72H1544"/></circle>
+
+<text x="832" y="144" text-anchor="middle" fill="#56f49a" font-family="Inter,system-ui,sans-serif" font-size="48" font-weight="900">BEYOND THE PINS</text>
+<text x="832" y="188" text-anchor="middle" fill="#83c9a4" font-family="Inter,system-ui,sans-serif" font-size="23" font-weight="600">More experiments, coursework, prototypes, native tools and ideas live across the profile.</text>
+
+<g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="18" font-weight="800" text-anchor="middle">
+  <g><rect x="390" y="226" width="400" height="62" rx="14" fill="#08271a" stroke="#268957"/><text x="590" y="264" fill="#8affbd">EXPLORE ALL REPOSITORIES</text><animate attributeName="opacity" values=".72;1;.72" dur="3.2s" repeatCount="indefinite"/></g>
+  <g><rect x="874" y="226" width="400" height="62" rx="14" fill="#08271a" stroke="#268957"/><text x="1074" y="264" fill="#8affbd">COURSEWORK ARCHIVE</text><animate attributeName="opacity" values=".72;1;.72" dur="3.6s" begin=".5s" repeatCount="indefinite"/></g>
+</g>
+
+<text x="832" y="338" text-anchor="middle" fill="#eafff2" font-family="Inter,system-ui,sans-serif" font-size="26" font-weight="800">Build things. Understand them. Make the next version better.</text>
+
+<!-- old waving footer idea, rebuilt -->
+<path d="M-120 362C160 298 340 410 610 354S1040 304 1260 362s380 58 524 18V420H-120Z" fill="url(#wave1)" opacity=".58">
+  <animateTransform attributeName="transform" type="translate" values="0 0;90 8;0 0" dur="12s" repeatCount="indefinite"/>
+</path>
+<path d="M-120 382C140 330 420 414 670 374s500-44 724 0 290 30 390 18V420H-120Z" fill="url(#wave2)" opacity=".35">
+  <animateTransform attributeName="transform" type="translate" values="0 0;-100 4;0 0" dur="15s" repeatCount="indefinite"/>
+</path>
+
+<g fill="#68ffab">
+  <circle cx="170" cy="320" r="4"><animate attributeName="cy" values="320;290;320" dur="5.6s" repeatCount="indefinite"/><animate attributeName="opacity" values=".2;1;.2" dur="2.8s" repeatCount="indefinite"/></circle>
+  <circle cx="1490" cy="315" r="5"><animate attributeName="cx" values="1490;1438;1490" dur="7.2s" repeatCount="indefinite"/></circle>
+</g>
+</svg>
