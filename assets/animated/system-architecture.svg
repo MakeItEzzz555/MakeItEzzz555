@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1664" height="936" viewBox="0 0 1664 936">
+<defs>
+ <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#123c2d" stroke-width="1" opacity=".42"/></pattern>
+ <radialGradient id="g" cx="52%" cy="45%"><stop stop-color="#1cff84" stop-opacity=".13"/><stop offset="1" stop-color="#04140d" stop-opacity="0"/></radialGradient>
+ <filter id="b"><feGaussianBlur stdDeviation="4"/></filter>
+</defs>
+<rect width="1664" height="936" rx="18" fill="#08100f"/><rect x="34" y="28" width="1596" height="880" rx="22" fill="#04140d" stroke="#165d3d"/><rect x="34" y="28" width="1596" height="880" rx="22" fill="url(#grid)"/><rect width="1664" height="936" fill="url(#g)"/>
+<g stroke="#37f58b" stroke-width="2" opacity=".55"><path d="M66 82V46h40"/><path d="M1558 46h40v36"/><path d="M66 854v36h40"/><path d="M1558 890h40v-36"/></g>
+<text x="832" y="96" text-anchor="middle" fill="#effff5" font-family="Inter,system-ui,sans-serif" font-size="48" font-weight="900">SYSTEM ARCHITECTURE</text>
+<text x="832" y="136" text-anchor="middle" fill="#55db91" font-family="ui-monospace,monospace" font-size="14" font-weight="800" letter-spacing="6">EXPERIENCE / APPLICATION LOGIC / INTELLIGENCE / DATA / DELIVERY</text>
+
+<!-- central vertical flow -->
+<g font-family="Inter,system-ui,sans-serif" font-weight="800" text-anchor="middle">
+ <rect x="682" y="174" width="300" height="54" rx="14" fill="#08261a" stroke="#2a9c60"/><text x="832" y="208" fill="#eafff2" font-size="18">USER EXPERIENCE</text>
+ <rect x="700" y="244" width="264" height="50" rx="14" fill="#08261a" stroke="#237b50"/><text x="832" y="276" fill="#eafff2" font-size="17">APPLICATION LOGIC</text>
+ <rect x="690" y="310" width="284" height="50" rx="14" fill="#08261a" stroke="#237b50"/><text x="832" y="342" fill="#eafff2" font-size="17">INTELLIGENT SYSTEMS</text>
+ <rect x="710" y="376" width="244" height="50" rx="14" fill="#08261a" stroke="#237b50"/><text x="832" y="408" fill="#eafff2" font-size="17">DATA + STORAGE</text>
+</g>
+<g stroke="#59ffa2" stroke-width="2"><line x1="832" y1="228" x2="832" y2="244"/><line x1="832" y1="294" x2="832" y2="310"/><line x1="832" y1="360" x2="832" y2="376"/></g>
+<g fill="#71ffae"><circle cx="832" cy="236" r="4"><animate attributeName="r" values="3;7;3" dur="2.2s" repeatCount="indefinite"/></circle><circle cx="832" cy="302" r="4"><animate attributeName="r" values="3;7;3" dur="2.5s" repeatCount="indefinite"/></circle><circle cx="832" cy="368" r="4"><animate attributeName="r" values="3;7;3" dur="2.8s" repeatCount="indefinite"/></circle></g>
+
+<!-- bus -->
+<line x1="250" y1="485" x2="1415" y2="485" stroke="#36ef8b" stroke-width="2" stroke-dasharray="7 12" opacity=".55"/>
+<circle cx="290" cy="485" r="6" fill="#a0ffc7" filter="url(#b)"><animate attributeName="cx" values="290;1375;290" dur="8s" repeatCount="indefinite"/></circle>
+
+<g font-family="Inter,system-ui,sans-serif">
+<!-- five panels -->
+<g transform="translate(112 520)"><rect width="278" height="300" rx="17" fill="#08251a" fill-opacity=".78" stroke="#1e7a4d"/><rect width="278" height="5" rx="3" fill="#3df491"/><text x="22" y="36" fill="#61f79d" font-family="ui-monospace,monospace" font-size="12" font-weight="800" letter-spacing="2">01 / EXPERIENCE</text><text x="22" y="86" fill="#f0fff6" font-size="25" font-weight="900">WEB + UI</text><text x="22" y="113" fill="#73b590" font-size="12">PRODUCT INTERFACES / CLIENT RUNTIME</text><g fill="#8bcba8" font-size="15"><text x="22" y="166">React / Next.js</text><text x="22" y="196">TypeScript / Tailwind</text><text x="22" y="226">Responsive interfaces</text><text x="22" y="256">Interactive experiences</text></g></g>
+<g transform="translate(402 520)"><rect width="278" height="300" rx="17" fill="#08251a" fill-opacity=".78" stroke="#1e7a4d"/><rect width="278" height="5" rx="3" fill="#3df491"/><text x="22" y="36" fill="#61f79d" font-family="ui-monospace,monospace" font-size="12" font-weight="800" letter-spacing="2">02 / LOGIC</text><text x="22" y="86" fill="#f0fff6" font-size="25" font-weight="900">APPLICATIONS</text><text x="22" y="113" fill="#73b590" font-size="12">SERVICES / STATE / DESKTOP LOGIC</text><g fill="#8bcba8" font-size="15"><text x="22" y="166">Node / PHP / Python</text><text x="22" y="196">C# / .NET</text><text x="22" y="226">Swift / Java</text><text x="22" y="256">APIs + automation</text></g></g>
+<g transform="translate(692 520)"><rect width="278" height="300" rx="17" fill="#08251a" fill-opacity=".78" stroke="#1e7a4d"/><rect width="278" height="5" rx="3" fill="#3df491"/><text x="22" y="36" fill="#61f79d" font-family="ui-monospace,monospace" font-size="12" font-weight="800" letter-spacing="2">03 / INTELLIGENCE</text><text x="22" y="86" fill="#f0fff6" font-size="25" font-weight="900">AI PIPELINES</text><text x="22" y="113" fill="#73b590" font-size="12">VISION / INFERENCE / WORKFLOWS</text><g fill="#8bcba8" font-size="15"><text x="22" y="166">MediaPipe</text><text x="22" y="196">ONNX Runtime</text><text x="22" y="226">TensorFlow.js</text><text x="22" y="256">Browser inference</text></g></g>
+<g transform="translate(982 520)"><rect width="278" height="300" rx="17" fill="#08251a" fill-opacity=".78" stroke="#1e7a4d"/><rect width="278" height="5" rx="3" fill="#3df491"/><text x="22" y="36" fill="#61f79d" font-family="ui-monospace,monospace" font-size="12" font-weight="800" letter-spacing="2">04 / DATA</text><text x="22" y="86" fill="#f0fff6" font-size="25" font-weight="900">PERSISTENCE</text><text x="22" y="113" fill="#73b590" font-size="12">STORAGE / MODELING / STATE</text><g fill="#8bcba8" font-size="15"><text x="22" y="166">MySQL / SQL</text><text x="22" y="196">Relational modeling</text><text x="22" y="226">Local persistence</text><text x="22" y="256">API-fed data</text></g></g>
+<g transform="translate(1272 520)"><rect width="278" height="300" rx="17" fill="#08251a" fill-opacity=".78" stroke="#1e7a4d"/><rect width="278" height="5" rx="3" fill="#3df491"/><text x="22" y="36" fill="#61f79d" font-family="ui-monospace,monospace" font-size="12" font-weight="800" letter-spacing="2">05 / DELIVERY</text><text x="22" y="86" fill="#f0fff6" font-size="25" font-weight="900">SHIP + ITERATE</text><text x="22" y="113" fill="#73b590" font-size="12">SOURCE / VALIDATION / RELEASE</text><g fill="#8bcba8" font-size="15"><text x="22" y="166">Git / GitHub</text><text x="22" y="196">Testing + CI</text><text x="22" y="226">Packaging / deploy</text><text x="22" y="256">Iterative delivery</text></g></g>
+</g>
+<text x="832" y="868" text-anchor="middle" fill="#309b69" font-family="ui-monospace,monospace" font-size="12" font-weight="800" letter-spacing="4">USER → EXPERIENCE → LOGIC → INTELLIGENCE → DATA → DELIVERY</text>
+</svg>
