@@ -1,30 +1,78 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1664" height="936" viewBox="0 0 1664 936">
 <defs>
- <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#123c2d" stroke-width="1" opacity=".42"/></pattern>
- <radialGradient id="g"><stop stop-color="#2cff91" stop-opacity=".18"/><stop offset="1" stop-color="#04140d" stop-opacity="0"/></radialGradient>
- <filter id="b"><feGaussianBlur stdDeviation="8"/></filter>
+  <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M50 0H0V50" fill="none" stroke="#174a35" stroke-width="1.2" opacity=".34"/><animateTransform attributeName="patternTransform" type="translate" from="0 0" to="50 -50" dur="19s" repeatCount="indefinite"/></pattern>
+  <radialGradient id="halo"><stop offset="0" stop-color="#35ff92" stop-opacity=".19"/><stop offset="1" stop-color="#03110b" stop-opacity="0"/></radialGradient>
+  <linearGradient id="scan" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#48ff99" stop-opacity="0"/><stop offset=".5" stop-color="#48ff99" stop-opacity=".18"/><stop offset="1" stop-color="#48ff99" stop-opacity="0"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="5"/></filter>
 </defs>
-<rect width="1664" height="936" rx="18" fill="#08100f"/><rect x="34" y="28" width="1596" height="880" rx="22" fill="#04140d" stroke="#165d3d"/><rect x="34" y="28" width="1596" height="880" rx="22" fill="url(#grid)"/>
-<rect x="66" y="54" width="1532" height="160" rx="22" fill="#092d1e" stroke="#237b50"/><rect x="66" y="54" width="1532" height="160" rx="22" fill="url(#g)"/>
-<text x="832" y="126" text-anchor="middle" fill="#4dff98" font-family="Inter,system-ui,sans-serif" font-size="55" font-weight="900">AI ENGINEERING</text><text x="832" y="166" text-anchor="middle" fill="#71dca2" font-family="ui-monospace,monospace" font-size="14" font-weight="800" letter-spacing="6">VISION / GESTURES / INFERENCE / AUTOMATION / BROWSER ML</text>
-<g stroke="#47f392" opacity=".32"><path d="M1160 82l70 45 74-38 65 55 88-52"/><circle cx="1160" cy="82" r="6" fill="#47f392"/><circle cx="1230" cy="127" r="6" fill="#47f392"/><circle cx="1304" cy="89" r="6" fill="#47f392"/><circle cx="1369" cy="144" r="6" fill="#47f392"/><circle cx="1457" cy="92" r="6" fill="#47f392"/></g>
+<rect width="1664" height="936" rx="22" fill="#07100e"/><rect x="34" y="28" width="1596" height="880" rx="24" fill="#04140d" stroke="#1b6848" stroke-width="1.5"/><rect x="34" y="28" width="1596" height="880" rx="24" fill="url(#grid)"/>
+<rect width="1664" height="936" fill="url(#halo)"><animate attributeName="opacity" values=".5;1;.5" dur="8s" repeatCount="indefinite"/></rect>
+<rect x="36" y="-120" width="1592" height="180" fill="url(#scan)"><animate attributeName="y" values="-120;860;-120" dur="12s" repeatCount="indefinite"/></rect>
 
-<text x="832" y="260" text-anchor="middle" fill="#55ed98" font-family="ui-monospace,monospace" font-size="13" font-weight="800" letter-spacing="5">AI SYSTEM CORE</text>
-<line x1="260" y1="292" x2="1404" y2="292" stroke="#42ed8d" stroke-width="2" stroke-dasharray="6 12" opacity=".55"/><circle cx="280" cy="292" r="7" fill="#a5ffca" filter="url(#b)"><animate attributeName="cx" values="280;1380;280" dur="7.5s" repeatCount="indefinite"/></circle>
+<rect x="66" y="52" width="1532" height="158" rx="22" fill="#092d1e" fill-opacity=".82" stroke="#237b50"/>
+<text x="832" y="124" text-anchor="middle" fill="#4eff9a" font-family="Inter,system-ui,sans-serif" font-size="58" font-weight="900">AI ENGINEERING</text>
+<text x="832" y="168" text-anchor="middle" fill="#6ee6a5" font-family="ui-monospace,monospace" font-size="19" font-weight="800" letter-spacing="5">GESTURE INTELLIGENCE / BROWSER ML / APPLIED AUTOMATION</text>
 
-<g font-family="Inter,system-ui,sans-serif">
-<g transform="translate(202 320)"><rect width="610" height="400" rx="18" fill="#08251a" fill-opacity=".86" stroke="#208055"/><rect width="610" height="6" rx="3" fill="#42f48f"/><text x="28" y="46" fill="#5ef39d" font-family="ui-monospace,monospace" font-size="13" font-weight="800" letter-spacing="3">01 / COMPUTER VISION</text>
-<g transform="translate(260 64)" stroke="#55fb9e" fill="none" stroke-width="3"><circle cx="45" cy="45" r="34"/><circle cx="45" cy="45" r="8" fill="#55fb9e"><animate attributeName="r" values="6;11;6" dur="2.4s" repeatCount="indefinite"/></circle><path d="M45 11L18 34 25 71 61 79 79 47 61 17Z"/><line x1="18" y1="34" x2="61" y2="79"/><line x1="61" y1="17" x2="25" y2="71"/></g>
-<text x="28" y="188" fill="#effff5" font-size="31" font-weight="900">GESTURE INTELLIGENCE</text><text x="28" y="219" fill="#65bc8e" font-family="ui-monospace,monospace" font-size="12" font-weight="800">MEDIAPIPE / ONNX / REAL-TIME INFERENCE</text>
-<g fill="#a5d5b9" font-size="16"><text x="28" y="270">• Hand landmark pipelines</text><text x="28" y="304">• Dynamic gesture recognition</text><text x="315" y="270">• Browser-side inference</text><text x="315" y="304">• Lightweight deployment</text><text x="28" y="338">• Sequence modeling</text><text x="315" y="338">• Privacy-friendly execution</text></g><text x="28" y="376" fill="#4bf497" font-family="ui-monospace,monospace" font-size="11" font-weight="800">GESTO / SIGNAI // INFERENCE ACTIVITY</text><rect x="28" y="388" width="548" height="6" rx="3" fill="#123d29"/><rect x="28" y="388" width="220" height="6" rx="3" fill="#46f596"><animate attributeName="width" values="110;420;220;500;220" dur="7s" repeatCount="indefinite"/></rect></g>
-
-<g transform="translate(852 320)"><rect width="610" height="400" rx="18" fill="#08251a" fill-opacity=".86" stroke="#208055"/><rect width="610" height="6" rx="3" fill="#42f48f"/><text x="28" y="46" fill="#5ef39d" font-family="ui-monospace,monospace" font-size="13" font-weight="800" letter-spacing="3">02 / APPLIED AI</text>
-<g transform="translate(260 66)" stroke="#55fb9e" fill="none" stroke-width="3"><rect x="0" y="0" width="92" height="66" rx="12"/><line x1="18" y1="20" x2="74" y2="20"/><line x1="18" y1="34" x2="62" y2="34"/><line x1="18" y1="48" x2="52" y2="48"/><circle cx="76" cy="58" r="18"/><path d="M88 72l20 17"/></g>
-<text x="28" y="188" fill="#effff5" font-size="31" font-weight="900">INTELLIGENT WORKFLOWS</text><text x="28" y="219" fill="#65bc8e" font-family="ui-monospace,monospace" font-size="12" font-weight="800">APPLIED ML / AUTOMATION / CONTEXT-AWARE TOOLS</text>
-<g fill="#a5d5b9" font-size="16"><text x="28" y="270">• AI-assisted applications</text><text x="28" y="304">• Model integration</text><text x="315" y="270">• Intelligent automation</text><text x="315" y="304">• Data-driven products</text><text x="28" y="338">• Inference workflows</text><text x="315" y="338">• Tool-oriented systems</text></g><text x="28" y="376" fill="#4bf497" font-family="ui-monospace,monospace" font-size="11" font-weight="800">WORKFLOW BUS // ONLINE</text><rect x="28" y="388" width="548" height="6" rx="3" fill="#123d29"/><rect x="28" y="388" width="275" height="6" rx="3" fill="#46f596"><animate attributeName="width" values="160;500;275;460;275" dur="6.5s" repeatCount="indefinite"/></rect></g>
+<!-- neural background -->
+<g stroke="#46ee92" fill="#52f89c" opacity=".28">
+  <line x1="1180" y1="80" x2="1242" y2="132"/><line x1="1242" y1="132" x2="1308" y2="92"/><line x1="1308" y1="92" x2="1380" y2="146"/><line x1="1380" y1="146" x2="1460" y2="96"/><line x1="1242" y1="132" x2="1380" y2="146"/>
+  <circle cx="1180" cy="80" r="6"><animate attributeName="r" values="4;8;4" dur="2.4s" repeatCount="indefinite"/></circle><circle cx="1242" cy="132" r="6"><animate attributeName="r" values="4;8;4" dur="2.8s" repeatCount="indefinite"/></circle><circle cx="1308" cy="92" r="6"><animate attributeName="r" values="4;8;4" dur="3.2s" repeatCount="indefinite"/></circle><circle cx="1380" cy="146" r="6"><animate attributeName="r" values="4;8;4" dur="3.6s" repeatCount="indefinite"/></circle><circle cx="1460" cy="96" r="6"><animate attributeName="r" values="4;8;4" dur="4s" repeatCount="indefinite"/></circle>
 </g>
 
-<text x="832" y="758" text-anchor="middle" fill="#54e997" font-family="ui-monospace,monospace" font-size="12" font-weight="800" letter-spacing="5">AI TOOLCHAIN</text>
-<g font-family="Inter,system-ui,sans-serif" font-size="14" font-weight="800" text-anchor="middle" fill="#eafff2"><rect x="416" y="785" width="160" height="48" rx="12" fill="#08251a" stroke="#238654"/><text x="496" y="815">PYTHON</text><rect x="600" y="785" width="160" height="48" rx="12" fill="#08251a" stroke="#238654"/><text x="680" y="815">MEDIAPIPE</text><rect x="784" y="785" width="160" height="48" rx="12" fill="#08251a" stroke="#238654"/><text x="864" y="815">ONNX</text><rect x="968" y="785" width="160" height="48" rx="12" fill="#08251a" stroke="#238654"/><text x="1048" y="815">TENSORFLOW.JS</text><rect x="1152" y="785" width="160" height="48" rx="12" fill="#08251a" stroke="#238654"/><text x="1232" y="815">AUTOMATION</text></g>
-<text x="94" y="875" fill="#2d9966" font-family="ui-monospace,monospace" font-size="11">AI_CORE: ACTIVE</text><circle cx="1550" cy="870" r="6" fill="#57ffa0"><animate attributeName="opacity" values=".25;1;.25" dur="2s" repeatCount="indefinite"/></circle>
+<text x="832" y="258" text-anchor="middle" fill="#55ef9a" font-family="ui-monospace,monospace" font-size="18" font-weight="800" letter-spacing="5">AI SYSTEM CORE</text>
+<line x1="205" y1="292" x2="1459" y2="292" stroke="#42ed8d" stroke-width="2.2" stroke-dasharray="9 14" opacity=".55"><animate attributeName="stroke-dashoffset" values="0;-138" dur="8s" repeatCount="indefinite"/></line>
+<circle r="7" fill="#a5ffca" filter="url(#blur)"><animateMotion dur="8s" repeatCount="indefinite" path="M205 292H1459"/></circle>
+
+<g font-family="Inter,system-ui,sans-serif">
+  <g transform="translate(150 330)">
+    <rect width="650" height="395" rx="20" fill="#08261a" fill-opacity=".9" stroke="#218055" stroke-width="1.6"/>
+    <rect width="650" height="7" rx="3.5" fill="#42f48f"/>
+    <text x="30" y="50" fill="#61f7a1" font-family="ui-monospace,monospace" font-size="18" font-weight="800" letter-spacing="2">01 / COMPUTER VISION</text>
+
+    <g transform="translate(280 66)" stroke="#5aff9f" fill="none" stroke-width="3.5">
+      <circle cx="45" cy="45" r="36"/>
+      <path d="M45 8L15 31 22 72 62 82 82 47 64 15Z"/>
+      <line x1="15" y1="31" x2="62" y2="82"/><line x1="64" y1="15" x2="22" y2="72"/>
+      <circle cx="45" cy="45" r="9" fill="#5aff9f"><animate attributeName="r" values="6;12;6" dur="2.5s" repeatCount="indefinite"/></circle>
+      <animateTransform attributeName="transform" type="rotate" additive="sum" from="0 45 45" to="360 45 45" dur="18s" repeatCount="indefinite"/>
+    </g>
+
+    <text x="30" y="205" fill="#effff5" font-size="34" font-weight="900">GESTURE INTELLIGENCE</text>
+    <text x="30" y="240" fill="#75c49d" font-size="20">Gesto / SignAI • real-time recognition</text>
+    <g fill="#a8d6bb" font-size="20">
+      <text x="30" y="286">MediaPipe landmarks • BiGRU sequences</text>
+      <text x="30" y="324">ONNX runtime • browser-side inference</text>
+      <text x="30" y="362">Privacy-friendly local computation</text>
+    </g>
+  </g>
+
+  <g transform="translate(864 330)">
+    <rect width="650" height="395" rx="20" fill="#08261a" fill-opacity=".9" stroke="#218055" stroke-width="1.6"/>
+    <rect width="650" height="7" rx="3.5" fill="#42f48f"/>
+    <text x="30" y="50" fill="#61f7a1" font-family="ui-monospace,monospace" font-size="18" font-weight="800" letter-spacing="2">02 / APPLIED AI</text>
+
+    <g transform="translate(280 70)" stroke="#5aff9f" fill="none" stroke-width="3.5">
+      <rect x="0" y="0" width="92" height="66" rx="12"/>
+      <line x1="18" y1="20" x2="74" y2="20"/><line x1="18" y1="34" x2="64" y2="34"/><line x1="18" y1="48" x2="54" y2="48"/>
+      <circle cx="78" cy="58" r="19"><animate attributeName="r" values="16;21;16" dur="3s" repeatCount="indefinite"/></circle><path d="M91 72l22 18"/>
+    </g>
+
+    <text x="30" y="205" fill="#effff5" font-size="34" font-weight="900">INTELLIGENT WORKFLOWS</text>
+    <text x="30" y="240" fill="#75c49d" font-size="20">Applied ML • automation • tooling</text>
+    <g fill="#a8d6bb" font-size="20">
+      <text x="30" y="286">Model integration • inference pipelines</text>
+      <text x="30" y="324">AI-assisted products • data workflows</text>
+      <text x="30" y="362">Tool-oriented automation systems</text>
+    </g>
+  </g>
+</g>
+
+<text x="832" y="782" text-anchor="middle" fill="#58ef9b" font-family="ui-monospace,monospace" font-size="18" font-weight="800" letter-spacing="5">AI TOOLCHAIN</text>
+<g font-family="Inter,system-ui,sans-serif" font-size="20" font-weight="850" text-anchor="middle" fill="#effff5">
+  <g><rect x="324" y="810" width="190" height="58" rx="14" fill="#08261a" stroke="#257f52"/><text x="419" y="847">PYTHON</text><animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0" dur="4.6s" repeatCount="indefinite"/></g>
+  <g><rect x="534" y="810" width="190" height="58" rx="14" fill="#08261a" stroke="#257f52"/><text x="629" y="847">MEDIAPIPE</text><animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0" dur="5s" begin=".4s" repeatCount="indefinite"/></g>
+  <g><rect x="744" y="810" width="190" height="58" rx="14" fill="#08261a" stroke="#257f52"/><text x="839" y="847">ONNX</text><animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0" dur="5.4s" begin=".8s" repeatCount="indefinite"/></g>
+  <g><rect x="954" y="810" width="190" height="58" rx="14" fill="#08261a" stroke="#257f52"/><text x="1049" y="847">TENSORFLOW.JS</text><animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0" dur="5.8s" begin="1.2s" repeatCount="indefinite"/></g>
+  <g><rect x="1164" y="810" width="190" height="58" rx="14" fill="#08261a" stroke="#257f52"/><text x="1259" y="847">AUTOMATION</text><animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0" dur="6.2s" begin="1.6s" repeatCount="indefinite"/></g>
+</g>
 </svg>
