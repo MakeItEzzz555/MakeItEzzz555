@@ -1,17 +1,20 @@
 <p align="center">
-  <img src="./assets/animated/hero.svg" width="100%" alt="Nicolas Savvides — MakeItEzzz555 animated engineering profile" />
+  <img src="./assets/animated/hero.svg" width="100%" alt="Nicolas Savvides — MakeItEzzz555 animated engineering profile header" />
 </p>
 
 <p align="center">
-  <strong>Computer Science · Full-Stack · AI/ML · Native · Systems · Creative Computing</strong>
+  <a href="https://github.com/MakeItEzzz555?tab=followers">
+    <img src="https://img.shields.io/github/followers/MakeItEzzz555?style=for-the-badge&logo=github&label=FOLLOWERS&labelColor=06170F&color=1F7A4F&logoColor=7DFFB4" alt="GitHub followers" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=MakeItEzzz555&style=for-the-badge&color=1F7A4F&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/MakeItEzzz555?tab=repositories">Repositories</a>
+  <a href="https://github.com/MakeItEzzz555?tab=repositories"><strong>Repositories</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/MakeItEzzz555/frederick-university-coursework">Coursework</a>
+  <a href="https://github.com/MakeItEzzz555/frederick-university-coursework"><strong>Coursework</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/MakeItEzzz555?tab=followers">Follow</a>
+  <a href="https://github.com/MakeItEzzz555?tab=followers"><strong>Follow</strong></a>
 </p>
 
 <br>
@@ -63,4 +66,17 @@
   <sub>GitHub contribution telemetry is regenerated automatically from public GitHub data.</sub>
 </p>
 
-<h3 align="center">Build things. Understand them. Make the next version better.</h3>
+<br>
+
+<p align="center">
+  <a href="https://github.com/MakeItEzzz555?tab=repositories">
+    <img src="https://img.shields.io/badge/EXPLORE_ALL_REPOSITORIES-0B2B1D?style=for-the-badge&logo=github&logoColor=7DFFB4" alt="Explore all repositories" />
+  </a>
+  <a href="https://github.com/MakeItEzzz555/frederick-university-coursework">
+    <img src="https://img.shields.io/badge/COURSEWORK_ARCHIVE-0B2B1D?style=for-the-badge&logo=github&logoColor=7DFFB4" alt="Coursework archive" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="./assets/animated/footer.svg" width="100%" alt="Animated profile footer — Beyond the Pins" />
+</p>
