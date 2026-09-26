@@ -3,16 +3,18 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/MakeItEzzz555?tab=repositories"><strong>REPOSITORIES</strong></a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/MakeItEzzz555/frederick-university-coursework"><strong>COURSEWORK</strong></a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/MakeItEzzz555?tab=followers"><strong>FOLLOW</strong></a>
+  <strong>Computer Science · Full-Stack · AI/ML · Native · Systems · Creative Computing</strong>
 </p>
 
 <p align="center">
-Computer Science student building across <strong>full-stack web, AI/ML, native desktop systems, games, graphics, security tooling and automation.</strong>
+  <a href="https://github.com/MakeItEzzz555?tab=repositories">Repositories</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/MakeItEzzz555/frederick-university-coursework">Coursework</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/MakeItEzzz555?tab=followers">Follow</a>
 </p>
+
+<br>
 
 <p align="center">
   <img src="./assets/animated/technology-universe.svg" width="100%" alt="Animated technology universe" />
@@ -31,43 +33,34 @@ Computer Science student building across <strong>full-stack web, AI/ML, native d
 </p>
 
 <p align="center">
-  <a href="https://github.com/MakeItEzzz555/predictx">PredictX</a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/MakeItEzzz555/signai-asl-gesture-demo">Gesto / SignAI</a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/MakeItEzzz555/AirPTTBridge">AirPTTBridge</a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/MakeItEzzz555/Dungeon_Escape_Project">Dungeon Escape</a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/MakeItEzzz555/MovFlix">MovFlix</a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/MakeItEzzz555/browser-pgp-tool">Browser PGP</a>
-</p>
-
-<p align="center">
   <img src="./assets/animated/contribution-activity.svg" width="100%" alt="Live animated GitHub contribution telemetry" />
 </p>
 
 <p align="center">
-  <img src="./assets/animated/engineering-philosophy.svg" width="100%" alt="Animated engineering philosophy panel" />
+  <img src="./assets/animated/engineering-philosophy.svg" width="100%" alt="Animated engineering practice and philosophy" />
 </p>
 
 <details>
-<summary><strong>More builds and coursework</strong></summary>
+<summary><strong>Explore the projects behind the dashboard</strong></summary>
 <br>
 
-- [SkillShare Local](https://github.com/MakeItEzzz555/skillshare-local) — PHP/MySQL role-based learning-session platform
-- [Swapee](https://github.com/MakeItEzzz555/swapee-reuse-marketplace) — swap, donate and resale marketplace prototype
+- [PredictX](https://github.com/MakeItEzzz555/predictx) — full-stack prediction-market platform
+- [Gesto / SignAI](https://github.com/MakeItEzzz555/signai-asl-gesture-demo) — browser-based gesture recognition and inference
+- [AirPTTBridge](https://github.com/MakeItEzzz555/AirPTTBridge) — Windows push-to-talk audio bridge
+- [Dungeon Escape](https://github.com/MakeItEzzz555/Dungeon_Escape_Project) — Unity 2D game architecture
+- [MovFlix](https://github.com/MakeItEzzz555/MovFlix) — modern media-discovery interface
+- [SkillShare Local](https://github.com/MakeItEzzz555/skillshare-local) — PHP/MySQL learning-session platform
+- [Swapee](https://github.com/MakeItEzzz555/swapee-reuse-marketplace) — swap, donate and resale marketplace
+- [Browser PGP](https://github.com/MakeItEzzz555/browser-pgp-tool) — browser-only OpenPGP utility
 - [BTC Price Prediction](https://github.com/MakeItEzzz555/BTC-Price-Prediction) — Python/Flask market-signal dashboard
-- [Browser Particle Physics](https://github.com/MakeItEzzz555/browser-particle-physics) — Three.js interactive simulation
+- [Browser Particle Physics](https://github.com/MakeItEzzz555/browser-particle-physics) — Three.js simulation
 - [Pygame Particle Layers](https://github.com/MakeItEzzz555/pygame-particle-layers) — Python visual-effects experiment
-- [Student Timetable Manager](https://github.com/MakeItEzzz555/student-timetable-manager-acsc382-assignment-2) — Java desktop coursework application
 - [Frederick University Coursework](https://github.com/MakeItEzzz555/frederick-university-coursework) — consolidated Computer Science archive
 
 </details>
 
 <p align="center">
-  <sub>GitHub telemetry is generated from public GitHub data and refreshed automatically by GitHub Actions.</sub>
+  <sub>GitHub contribution telemetry is regenerated automatically from public GitHub data.</sub>
 </p>
 
 <h3 align="center">Build things. Understand them. Make the next version better.</h3>
