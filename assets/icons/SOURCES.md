@@ -12,10 +12,13 @@ and are referenced by relative links from the profile README.
   on 2026-10-18.
 - All brand names and marks remain the property of their respective owners.
   This profile is not endorsed by those organizations.
-- Eight optional SMIL motion derivatives are generated locally from these
-  static logos using `scripts/build_animated_icons.py` (no external scripts).
+- Every technology logo has a looping SVG SMIL motion derivative generated
+  locally with `scripts/build_animated_icons.py` (31 icons, no external scripts).
+  These are geometric animations, not hard-to-see opacity-only pulses. All 54
+  README logo placements use them, with a versioned image URL for cache refresh.
   Static source logos remain unchanged.
 - README `<picture>` markup selects static originals for browsers requesting
   `prefers-reduced-motion: reduce`. All logos retain their original geometry
   and accent color. Animation never depends on a CDN or runtime JavaScript.
-- Most technology icons remain static to avoid overwhelming visual motion.
+- Different movement types and animation phases avoid lockstep movement;
+  logo geometry remains identical to the original mint-green source.

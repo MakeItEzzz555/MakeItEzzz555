@@ -97,7 +97,7 @@ def validate(root, check_remote=False):
         if not src or "/animated/" not in src:
             errors.append("Motion picture missing generated image")
             continue
-        static = src.replace("/animated/", "/")
+        static = urlsplit(src).path.replace("/animated/", "/")
         if source.get("media") != "(prefers-reduced-motion: reduce)" or source.get("srcset") != static:
             errors.append("Motion picture lacks correct reduced-motion fallback: " + src)
         if not (root / static.removeprefix("./")).is_file():
