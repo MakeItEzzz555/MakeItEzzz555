@@ -12,7 +12,10 @@ and are referenced by relative links from the profile README.
   on 2026-10-18.
 - All brand names and marks remain the property of their respective owners.
   This profile is not endorsed by those organizations.
-- This is **not** a script-driven animation bundle: the profile already has
-  locally hosted animated hero/navigation/section SVG assets. The technical
-  brand icons remain static for legibility, reduced-motion compatibility,
-  and consistent rendering on GitHub.
+- Eight optional SMIL motion derivatives are generated locally from these
+  static logos using `scripts/build_animated_icons.py` (no external scripts).
+  Static source logos remain unchanged.
+- README `<picture>` markup selects static originals for browsers requesting
+  `prefers-reduced-motion: reduce`. All logos retain their original geometry
+  and accent color. Animation never depends on a CDN or runtime JavaScript.
+- Most technology icons remain static to avoid overwhelming visual motion.
