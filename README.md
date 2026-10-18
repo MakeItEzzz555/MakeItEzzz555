@@ -22,8 +22,8 @@
 </p>
 
 <p align="center"><sub><strong>TOOLCHAIN SIGNALS</strong> // languages · frameworks · native · systems · ML · creative tooling</sub></p>
-<p align="center"><img src="./assets/icons/typescript.svg" width="34" height="34" alt="TypeScript" title="TypeScript" />&nbsp;&nbsp;<img src="./assets/icons/javascript.svg" width="34" height="34" alt="JavaScript" title="JavaScript" />&nbsp;&nbsp;<img src="./assets/icons/python.svg" width="34" height="34" alt="Python" title="Python" />&nbsp;&nbsp;<img src="./assets/icons/csharp.svg" width="34" height="34" alt="C#" title="C#" />&nbsp;&nbsp;<img src="./assets/icons/openjdk.svg" width="34" height="34" alt="Java" title="Java" />&nbsp;&nbsp;<img src="./assets/icons/cplusplus.svg" width="34" height="34" alt="C++" title="C++" />&nbsp;&nbsp;<img src="./assets/icons/c.svg" width="34" height="34" alt="C" title="C" />&nbsp;&nbsp;<img src="./assets/icons/php.svg" width="34" height="34" alt="PHP" title="PHP" />&nbsp;&nbsp;<img src="./assets/icons/swift.svg" width="34" height="34" alt="Swift" title="Swift" />&nbsp;&nbsp;<img src="./assets/icons/gnubash.svg" width="34" height="34" alt="Bash" title="Bash" />&nbsp;&nbsp;<img src="./assets/icons/html5.svg" width="34" height="34" alt="HTML5" title="HTML5" />&nbsp;&nbsp;<img src="./assets/icons/css3.svg" width="34" height="34" alt="CSS3" title="CSS3" />&nbsp;&nbsp;<img src="./assets/icons/mysql.svg" width="34" height="34" alt="MySQL" title="MySQL" /></p>
-<p align="center"><img src="./assets/icons/react.svg" width="34" height="34" alt="React" title="React" />&nbsp;&nbsp;<img src="./assets/icons/nextdotjs.svg" width="34" height="34" alt="Next.js" title="Next.js" />&nbsp;&nbsp;<img src="./assets/icons/nodedotjs.svg" width="34" height="34" alt="Node.js" title="Node.js" />&nbsp;&nbsp;<img src="./assets/icons/vite.svg" width="34" height="34" alt="Vite" title="Vite" />&nbsp;&nbsp;<img src="./assets/icons/tailwindcss.svg" width="34" height="34" alt="Tailwind CSS" title="Tailwind CSS" />&nbsp;&nbsp;<img src="./assets/icons/flask.svg" width="34" height="34" alt="Flask" title="Flask" />&nbsp;&nbsp;<img src="./assets/icons/dotnet.svg" width="34" height="34" alt=".NET" title=".NET" />&nbsp;&nbsp;<img src="./assets/icons/unity.svg" width="34" height="34" alt="Unity" title="Unity" />&nbsp;&nbsp;<img src="./assets/icons/threedotjs.svg" width="34" height="34" alt="Three.js" title="Three.js" />&nbsp;&nbsp;<img src="./assets/icons/arduino.svg" width="34" height="34" alt="Arduino" title="Arduino" />&nbsp;&nbsp;<img src="./assets/icons/git.svg" width="34" height="34" alt="Git" title="Git" />&nbsp;&nbsp;<img src="./assets/icons/github.svg" width="34" height="34" alt="GitHub" title="GitHub" />&nbsp;&nbsp;<img src="./assets/icons/visualstudiocode.svg" width="34" height="34" alt="VS Code" title="VS Code" />&nbsp;&nbsp;<img src="./assets/icons/onnx.svg" width="34" height="34" alt="ONNX" title="ONNX" />&nbsp;&nbsp;<img src="./assets/icons/tensorflow.svg" width="34" height="34" alt="TensorFlow" title="TensorFlow" /></p>
+<p align="center"><img src="./assets/icons/typescript.svg" width="34" height="34" alt="TypeScript" title="TypeScript" />&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/javascript.svg" /><img src="./assets/icons/animated/javascript.svg" width="34" height="34" alt="JavaScript" title="JavaScript" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/python.svg" /><img src="./assets/icons/animated/python.svg" width="34" height="34" alt="Python" title="Python" /></picture>&nbsp;&nbsp;<img src="./assets/icons/csharp.svg" width="34" height="34" alt="C#" title="C#" />&nbsp;&nbsp;<img src="./assets/icons/openjdk.svg" width="34" height="34" alt="Java" title="Java" />&nbsp;&nbsp;<img src="./assets/icons/cplusplus.svg" width="34" height="34" alt="C++" title="C++" />&nbsp;&nbsp;<img src="./assets/icons/c.svg" width="34" height="34" alt="C" title="C" />&nbsp;&nbsp;<img src="./assets/icons/php.svg" width="34" height="34" alt="PHP" title="PHP" />&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/swift.svg" /><img src="./assets/icons/animated/swift.svg" width="34" height="34" alt="Swift" title="Swift" /></picture>&nbsp;&nbsp;<img src="./assets/icons/gnubash.svg" width="34" height="34" alt="Bash" title="Bash" />&nbsp;&nbsp;<img src="./assets/icons/html5.svg" width="34" height="34" alt="HTML5" title="HTML5" />&nbsp;&nbsp;<img src="./assets/icons/css3.svg" width="34" height="34" alt="CSS3" title="CSS3" />&nbsp;&nbsp;<img src="./assets/icons/mysql.svg" width="34" height="34" alt="MySQL" title="MySQL" /></p>
+<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/react.svg" /><img src="./assets/icons/animated/react.svg" width="34" height="34" alt="React" title="React" /></picture>&nbsp;&nbsp;<img src="./assets/icons/nextdotjs.svg" width="34" height="34" alt="Next.js" title="Next.js" />&nbsp;&nbsp;<img src="./assets/icons/nodedotjs.svg" width="34" height="34" alt="Node.js" title="Node.js" />&nbsp;&nbsp;<img src="./assets/icons/vite.svg" width="34" height="34" alt="Vite" title="Vite" />&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/tailwindcss.svg" /><img src="./assets/icons/animated/tailwindcss.svg" width="34" height="34" alt="Tailwind CSS" title="Tailwind CSS" /></picture>&nbsp;&nbsp;<img src="./assets/icons/flask.svg" width="34" height="34" alt="Flask" title="Flask" />&nbsp;&nbsp;<img src="./assets/icons/dotnet.svg" width="34" height="34" alt=".NET" title=".NET" />&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/unity.svg" /><img src="./assets/icons/animated/unity.svg" width="34" height="34" alt="Unity" title="Unity" /></picture>&nbsp;&nbsp;<img src="./assets/icons/threedotjs.svg" width="34" height="34" alt="Three.js" title="Three.js" />&nbsp;&nbsp;<img src="./assets/icons/arduino.svg" width="34" height="34" alt="Arduino" title="Arduino" />&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/git.svg" /><img src="./assets/icons/animated/git.svg" width="34" height="34" alt="Git" title="Git" /></picture>&nbsp;&nbsp;<img src="./assets/icons/github.svg" width="34" height="34" alt="GitHub" title="GitHub" />&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/visualstudiocode.svg" /><img src="./assets/icons/animated/visualstudiocode.svg" width="34" height="34" alt="VS Code" title="VS Code" /></picture>&nbsp;&nbsp;<img src="./assets/icons/onnx.svg" width="34" height="34" alt="ONNX" title="ONNX" />&nbsp;&nbsp;<img src="./assets/icons/tensorflow.svg" width="34" height="34" alt="TensorFlow" title="TensorFlow" /></p>
 
 <br>
 
@@ -97,7 +97,7 @@
 <h3 align="center">BTC Price Prediction</h3>
 <a href="https://github.com/MakeItEzzz555/BTC-Price-Prediction"><img src="assets/projects/btc-prediction.png" alt="Bitcoin Price Prediction dashboard" width="100%"></a>
 <p align="center"><strong>Market-signal forecast dashboard</strong><br>Python · Flask · market data APIs</p>
-<p align="center"><img src="./assets/icons/python.svg" width="22" height="22" alt="Python" title="Python" />&nbsp;<img src="./assets/icons/flask.svg" width="22" height="22" alt="Flask" title="Flask" />&nbsp;<img src="./assets/icons/bitcoin.svg" width="22" height="22" alt="Bitcoin" title="Bitcoin" /></p>
+<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/python.svg" /><img src="./assets/icons/animated/python.svg" width="22" height="22" alt="Python" title="Python" /></picture>&nbsp;<img src="./assets/icons/flask.svg" width="22" height="22" alt="Flask" title="Flask" />&nbsp;<img src="./assets/icons/bitcoin.svg" width="22" height="22" alt="Bitcoin" title="Bitcoin" /></p>
 </td>
 </tr>
 <tr>
@@ -105,13 +105,13 @@
 <h3 align="center">Browser PGP Tool</h3>
 <a href="https://github.com/MakeItEzzz555/browser-pgp-tool"><img src="assets/projects/browser-pgp.png" alt="Browser OpenPGP encryption tool" width="100%"></a>
 <p align="center"><strong>Browser-only OpenPGP utility</strong><br>JavaScript · encryption · signing · verification</p>
-<p align="center"><img src="./assets/icons/javascript.svg" width="22" height="22" alt="JavaScript" title="JavaScript" /></p>
+<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/javascript.svg" /><img src="./assets/icons/animated/javascript.svg" width="22" height="22" alt="JavaScript" title="JavaScript" /></picture></p>
 </td>
 <td width="50%" valign="top">
 <h3 align="center">Particle Physics</h3>
 <a href="https://github.com/MakeItEzzz555/browser-particle-physics"><img src="assets/projects/particle-physics.png" alt="Interactive browser particle physics sandbox" width="100%"></a>
 <p align="center"><strong>Interactive browser physics experiment</strong><br>Three.js · JavaScript · simulation · creative coding</p>
-<p align="center"><img src="./assets/icons/threedotjs.svg" width="22" height="22" alt="Three.js" title="Three.js" />&nbsp;<img src="./assets/icons/javascript.svg" width="22" height="22" alt="JavaScript" title="JavaScript" /></p>
+<p align="center"><img src="./assets/icons/threedotjs.svg" width="22" height="22" alt="Three.js" title="Three.js" />&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/javascript.svg" /><img src="./assets/icons/animated/javascript.svg" width="22" height="22" alt="JavaScript" title="JavaScript" /></picture></p>
 </td>
 </tr>
 <tr>
@@ -119,13 +119,13 @@
 <h3 align="center">Studio Photosynthesis</h3>
 <a href="https://github.com/MakeItEzzz555/studio-photosynthesis-web"><img src="assets/projects/studio-photosynthesis.png" alt="Studio Photosynthesis photography website" width="100%"></a>
 <p align="center"><strong>Cinematic photography studio website</strong><br>React · TypeScript · Tailwind CSS · motion</p>
-<p align="center"><img src="./assets/icons/react.svg" width="22" height="22" alt="React" title="React" />&nbsp;<img src="./assets/icons/typescript.svg" width="22" height="22" alt="TypeScript" title="TypeScript" />&nbsp;<img src="./assets/icons/tailwindcss.svg" width="22" height="22" alt="Tailwind CSS" title="Tailwind CSS" /></p>
+<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/react.svg" /><img src="./assets/icons/animated/react.svg" width="22" height="22" alt="React" title="React" /></picture>&nbsp;<img src="./assets/icons/typescript.svg" width="22" height="22" alt="TypeScript" title="TypeScript" />&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/tailwindcss.svg" /><img src="./assets/icons/animated/tailwindcss.svg" width="22" height="22" alt="Tailwind CSS" title="Tailwind CSS" /></picture></p>
 </td>
 <td width="50%" valign="top">
 <h3 align="center">Pygame Particle Layers</h3>
 <a href="https://github.com/MakeItEzzz555/pygame-particle-layers"><img src="assets/projects/pygame-particles.png" alt="Pygame particle layer effect" width="100%"></a>
 <p align="center"><strong>Layered particle-animation experiment</strong><br>Python · Pygame · visual effects · creative coding</p>
-<p align="center"><img src="./assets/icons/python.svg" width="22" height="22" alt="Python" title="Python" /></p>
+<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/python.svg" /><img src="./assets/icons/animated/python.svg" width="22" height="22" alt="Python" title="Python" /></picture></p>
 </td>
 </tr>
 <tr>
@@ -133,7 +133,7 @@
 <h3 align="center">DynamicIsland</h3>
 <img src="assets/projects/dynamic-island.jpg" alt="DynamicIsland native macOS expanded workspace with media, Live Activities and shortcuts" width="100%">
 <p align="center"><strong>Native macOS notch workspace</strong><br>Swift · SwiftUI · AppKit · media controls · Live Activities · shortcuts</p>
-<p align="center"><img src="./assets/icons/swift.svg" width="22" height="22" alt="Swift" title="Swift" />&nbsp;<img src="./assets/icons/apple.svg" width="22" height="22" alt="Apple" title="macOS" /></p>
+<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/swift.svg" /><img src="./assets/icons/animated/swift.svg" width="22" height="22" alt="Swift" title="Swift" /></picture>&nbsp;<img src="./assets/icons/apple.svg" width="22" height="22" alt="Apple" title="macOS" /></p>
 </td>
 </tr>
 <tr>
@@ -141,7 +141,7 @@
 <h3 align="center">Dungeon Escape</h3>
 <a href="https://github.com/MakeItEzzz555/Dungeon_Escape_Project"><img src="https://raw.githubusercontent.com/MakeItEzzz555/Dungeon_Escape_Project/main/Assets/DU_UI_HUD_Free/GamesTitleBanner.png" alt="Dungeon Escape project banner from the repository README" width="100%"></a>
 <p align="center"><strong>Unity 6 top-down dungeon action/adventure</strong><br>Unity · C# · URP · combat · enemy FSMs · bosses · hazards · progression</p>
-<p align="center"><img src="./assets/icons/unity.svg" width="22" height="22" alt="Unity" title="Unity" />&nbsp;<img src="./assets/icons/dotnet.svg" width="22" height="22" alt=".NET / C#" title="C#" /></p>
+<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/unity.svg" /><img src="./assets/icons/animated/unity.svg" width="22" height="22" alt="Unity" title="Unity" /></picture>&nbsp;<img src="./assets/icons/dotnet.svg" width="22" height="22" alt=".NET / C#" title="C#" /></p>
 </td>
 </tr>
 <tr>
