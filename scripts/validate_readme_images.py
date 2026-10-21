@@ -90,7 +90,13 @@ def validate(root, check_remote=False):
         images = picture["images"]
         sources = picture["sources"]
         if len(images) != 1 or len(sources) != 1:
-            errors.append("Motion picture requires one image and one static source")
+            errors.append("Picture requires one image and one source")
+            continue
+        if sources[0].get("media") == "(prefers-color-scheme: dark)":
+            dark = sources[0].get("srcset", "")
+            for ref in (images[0][0] or "", dark):
+                if urlsplit(ref).scheme not in ("http", "https") and not (root / ref.removeprefix("./")).is_file():
+                    errors.append("Theme picture file missing: " + ref)
             continue
         src, alt = images[0]
         source = sources[0]

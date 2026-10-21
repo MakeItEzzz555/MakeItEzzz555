@@ -4,13 +4,15 @@ on:
     paths:
       - "README.md"
       - "assets/**"
-      - "scripts/validate_readme_images.py"
+      - "scripts/**"
+      - "tests/**"
       - ".github/workflows/validate-profile-images.yml"
   pull_request:
     paths:
       - "README.md"
       - "assets/**"
-      - "scripts/validate_readme_images.py"
+      - "scripts/**"
+      - "tests/**"
       - ".github/workflows/validate-profile-images.yml"
 
 permissions:
@@ -26,6 +28,8 @@ jobs:
           python-version: "3.12"
       - name: Check generated animated brand icons
         run: python3 scripts/build_animated_icons.py --check
+      - name: Check generated signal panels
+        run: python3 scripts/build_signal_panels.py --check
       - name: Test reduced-motion markup and original logo geometry
         run: python3 -m unittest discover -s tests -v
       - name: Validate README assets and local SVG files
