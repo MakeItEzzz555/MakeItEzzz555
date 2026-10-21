@@ -1,181 +1,53 @@
-<p align="center">
-  <img src="./assets/animated/hero.svg" width="100%" alt="Nicolas Savvides — MakeItEzzz555 animated engineering profile header" />
+<img src="./assets/telemetry/hero.svg" width="100%" alt="Nicolas Savvides, full-stack product engineer, with a rotating globe of the 28 technologies he uses." />
+
+Full-stack product engineer in Cyprus. I build tools that live inside AI coding agents, and ship native macOS, web and game software through [Exodia Studios](https://exodiastudios.com).
+
+<p>
+  <a href="https://github.com/sponsors/MakeItEzzz555"><img src="./assets/telemetry/link-sponsor.svg" width="32%" alt="Sponsor on GitHub" /></a>
+  <a href="https://github.com/MakeItEzzz555?tab=followers"><img src="./assets/telemetry/link-follow.svg" width="32%" alt="Follow on GitHub" /></a>
+  <a href="https://exodiastudios.com"><img src="./assets/telemetry/link-studio.svg" width="32%" alt="exodiastudios.com" /></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/MakeItEzzz555?tab=followers">
-    <img src="https://img.shields.io/github/followers/MakeItEzzz555?style=for-the-badge&logo=github&label=FOLLOWERS&labelColor=06170F&color=1F7A4F&logoColor=7DFFB4" alt="GitHub followers" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=MakeItEzzz555&style=for-the-badge&color=1F7A4F&label=PROFILE+VIEWS&v=20261018" alt="Profile views" />
+<img src="./assets/telemetry/work.svg" width="100%" alt="Work" />
+
+<a href="https://github.com/MakeItEzzz555/tuck-bit"><img src="./assets/telemetry/sheet-tuck-bit.svg" width="100%" alt="TuckBit" /></a>
+<a href="https://github.com/MakeItEzzz555/tuck-bit"><img src="./assets/work/tuckbit-dark.jpg" width="100%" alt="TuckBit: every tool, right on cue" /></a>
+
+<a href="https://github.com/MakeItEzzz555/claude-widget-kit"><img src="./assets/telemetry/sheet-claude-widget-kit.svg" width="100%" alt="Claude Widget Kit" /></a>
+<a href="https://github.com/MakeItEzzz555/claude-widget-kit"><img src="./assets/work/claude-kit.jpg" width="100%" alt="Claude Widget Kit usage rings and agents panel inside Claude Code" /></a>
+
+<a href="https://github.com/MakeItEzzz555/codex-widget-kit"><img src="./assets/telemetry/sheet-codex-widget-kit.svg" width="100%" alt="Codex Widget Kit" /></a>
+<a href="https://github.com/MakeItEzzz555/codex-widget-kit"><img src="./assets/work/codex-kit.jpg" width="100%" alt="Codex Widget Kit dashboard with usage rings and sub-agent cards" /></a>
+
+<p>
+  <img src="./assets/telemetry/tag-signai-asl-gesture-demo.svg" width="49%" alt="SignAI" />
+  <a href="https://github.com/MakeItEzzz555/grapharium"><img src="./assets/telemetry/tag-grapharium.svg" width="49%" alt="Grapharium" /></a><br />
+  <img src="./assets/work/signai.jpg" width="49%" alt="SignAI recognising an ASL gesture in the browser" />
+  <a href="https://github.com/MakeItEzzz555/grapharium"><img src="./assets/work/grapharium.jpg" width="49%" alt="Grapharium rendering a code graph as a galaxy" /></a>
+</p>
+<p>
+  <a href="https://github.com/MakeItEzzz555/Dungeon_Escape_Project"><img src="./assets/telemetry/tag-Dungeon_Escape_Project.svg" width="49%" alt="Dungeon Escape" /></a>
+  <a href="https://github.com/MakeItEzzz555/AirPTTBridge"><img src="./assets/telemetry/tag-AirPTTBridge.svg" width="49%" alt="AirPTTBridge" /></a><br />
+  <a href="https://github.com/MakeItEzzz555/Dungeon_Escape_Project"><img src="./assets/work/dungeon.jpg" width="49%" alt="Dungeon Escape title banner" /></a>
+  <a href="https://github.com/MakeItEzzz555/AirPTTBridge"><img src="./assets/work/airptt.jpg" width="49%" alt="AirPTTBridge setup window" /></a>
+</p>
+<p>
+  <a href="https://github.com/MakeItEzzz555/predictx"><img src="./assets/telemetry/tag-predictx.svg" width="49%" alt="PredictX" /></a>
+  <img src="./assets/telemetry/tag-DynamicIsland.svg" width="49%" alt="DynamicIsland" />
 </p>
 
-<p align="center">
-  <a href="https://github.com/MakeItEzzz555?tab=repositories"><img src="./assets/animated/nav-repositories.svg" width="31%" alt="Repositories" /></a>
-  <a href="https://github.com/MakeItEzzz555/frederick-university-coursework"><img src="./assets/animated/nav-coursework.svg" width="31%" alt="Coursework" /></a>
-  <a href="https://github.com/MakeItEzzz555?tab=followers"><img src="./assets/animated/nav-follow.svg" width="31%" alt="Follow" /></a>
+**SignAI**: ASL gesture recognition entirely in the browser, in private development. **Grapharium**: your codebase as a navigable 3D universe, offline. **Dungeon Escape**: a Unity 6 dungeon game with bosses and enemy state machines. **AirPTTBridge**: routes an AirPods mic into push-to-talk on Windows. **PredictX**: a prediction market with live order books and Stripe. **DynamicIsland**: a native macOS notch workspace, in private development.
+
+<a href="https://exodiastudios.com"><img src="./assets/telemetry/studio.svg" width="100%" alt="Exodia Studios: web products, native macOS, AI-agent tooling, games." /></a>
+
+<img src="./assets/telemetry/contributions.svg" width="100%" alt="Contributions: calendar, total GitHub stars, current and longest streak, refreshed daily." />
+
+<a href="https://github.com/sponsors/MakeItEzzz555"><img src="./assets/telemetry/sponsor.svg" width="100%" alt="Sponsor: name in README, company logos, issues looked at first." /></a>
+
+<p>
+  <a href="https://github.com/sponsors/MakeItEzzz555"><img src="./assets/telemetry/link-sponsor.svg" width="32%" alt="Sponsor on GitHub" /></a>
 </p>
 
-<br>
+<sub>University coursework lives in its own archive: [frederick-university-coursework](https://github.com/MakeItEzzz555/frederick-university-coursework).</sub>
 
-<p align="center">
-  <img src="./assets/animated/technology-universe.svg" width="100%" alt="Animated technology universe" />
-</p>
-
-<p align="center"><sub><strong>TOOLCHAIN SIGNALS</strong> // languages · frameworks · native · systems · ML · creative tooling</sub></p>
-<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/typescript.svg" /><img src="./assets/icons/animated/typescript.svg?v=2" width="34" height="34" alt="TypeScript" title="TypeScript" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/javascript.svg" /><img src="./assets/icons/animated/javascript.svg?v=2" width="34" height="34" alt="JavaScript" title="JavaScript" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/python.svg" /><img src="./assets/icons/animated/python.svg?v=2" width="34" height="34" alt="Python" title="Python" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/csharp.svg" /><img src="./assets/icons/animated/csharp.svg?v=2" width="34" height="34" alt="C#" title="C#" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/openjdk.svg" /><img src="./assets/icons/animated/openjdk.svg?v=2" width="34" height="34" alt="Java" title="Java" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/cplusplus.svg" /><img src="./assets/icons/animated/cplusplus.svg?v=2" width="34" height="34" alt="C++" title="C++" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/c.svg" /><img src="./assets/icons/animated/c.svg?v=2" width="34" height="34" alt="C" title="C" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/php.svg" /><img src="./assets/icons/animated/php.svg?v=2" width="34" height="34" alt="PHP" title="PHP" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/swift.svg" /><img src="./assets/icons/animated/swift.svg?v=2" width="34" height="34" alt="Swift" title="Swift" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/gnubash.svg" /><img src="./assets/icons/animated/gnubash.svg?v=2" width="34" height="34" alt="Bash" title="Bash" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/html5.svg" /><img src="./assets/icons/animated/html5.svg?v=2" width="34" height="34" alt="HTML5" title="HTML5" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/css3.svg" /><img src="./assets/icons/animated/css3.svg?v=2" width="34" height="34" alt="CSS3" title="CSS3" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/mysql.svg" /><img src="./assets/icons/animated/mysql.svg?v=2" width="34" height="34" alt="MySQL" title="MySQL" /></picture></p>
-<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/react.svg" /><img src="./assets/icons/animated/react.svg?v=2" width="34" height="34" alt="React" title="React" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/nextdotjs.svg" /><img src="./assets/icons/animated/nextdotjs.svg?v=2" width="34" height="34" alt="Next.js" title="Next.js" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/nodedotjs.svg" /><img src="./assets/icons/animated/nodedotjs.svg?v=2" width="34" height="34" alt="Node.js" title="Node.js" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/vite.svg" /><img src="./assets/icons/animated/vite.svg?v=2" width="34" height="34" alt="Vite" title="Vite" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/tailwindcss.svg" /><img src="./assets/icons/animated/tailwindcss.svg?v=2" width="34" height="34" alt="Tailwind CSS" title="Tailwind CSS" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/flask.svg" /><img src="./assets/icons/animated/flask.svg?v=2" width="34" height="34" alt="Flask" title="Flask" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/dotnet.svg" /><img src="./assets/icons/animated/dotnet.svg?v=2" width="34" height="34" alt=".NET" title=".NET" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/unity.svg" /><img src="./assets/icons/animated/unity.svg?v=2" width="34" height="34" alt="Unity" title="Unity" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/threedotjs.svg" /><img src="./assets/icons/animated/threedotjs.svg?v=2" width="34" height="34" alt="Three.js" title="Three.js" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/arduino.svg" /><img src="./assets/icons/animated/arduino.svg?v=2" width="34" height="34" alt="Arduino" title="Arduino" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/git.svg" /><img src="./assets/icons/animated/git.svg?v=2" width="34" height="34" alt="Git" title="Git" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/github.svg" /><img src="./assets/icons/animated/github.svg?v=2" width="34" height="34" alt="GitHub" title="GitHub" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/visualstudiocode.svg" /><img src="./assets/icons/animated/visualstudiocode.svg?v=2" width="34" height="34" alt="VS Code" title="VS Code" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/onnx.svg" /><img src="./assets/icons/animated/onnx.svg?v=2" width="34" height="34" alt="ONNX" title="ONNX" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/tensorflow.svg" /><img src="./assets/icons/animated/tensorflow.svg?v=2" width="34" height="34" alt="TensorFlow" title="TensorFlow" /></picture></p>
-
-<br>
-
-<p align="center">
-  <img src="./assets/animated/system-architecture.svg" width="100%" alt="Animated engineering system architecture" />
-</p>
-
-<p align="center">
-  <img src="./assets/animated/ai-engineering.svg" width="100%" alt="Animated AI engineering panel" />
-</p>
-
-<p align="center">
-  <img src="./assets/animated/project-ecosystem.svg" width="100%" alt="Animated project ecosystem" />
-</p>
-
-<p align="center">
-  <img src="./assets/animated/contribution-activity.svg" width="100%" alt="Live animated GitHub contribution telemetry" />
-</p>
-
-<p align="center">
-  <img src="./assets/animated/streak-header.svg" width="100%" alt="Animated GitHub contribution streak header" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=MakeItEzzz555&hide_border=false&border_radius=18&background=04140D&border=1B6848&stroke=1B6848&ring=4DF394&fire=4DF394&currStreakNum=EFFFF5&sideNums=EFFFF5&currStreakLabel=7DFFB4&sideLabels=7DFFB4&dates=6F9E83" alt="GitHub contribution streak" />
-</p>
-
-<p align="center">
-  <img src="./assets/animated/engineering-philosophy.svg" width="100%" alt="Animated engineering practice and philosophy" />
-</p>
-
-<br>
-
-<p align="center">
-  <img src="./assets/animated/project-gallery-header.svg" width="100%" alt="Animated visual project archive header" />
-</p>
-
-
-<p align="center">
-  <a href="https://github.com/MakeItEzzz555/AirPTTBridge">
-    <img src="assets/projects/airpttbridge.png" alt="AirPTTBridge Windows setup and system check" width="72%" />
-  </a>
-</p>
-<h3 align="center">AirPTTBridge</h3>
-<p align="center"><strong>Windows push-to-talk audio bridge</strong><br>C# · .NET · WASAPI · Windows audio routing</p>
-<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/csharp.svg" /><img src="./assets/icons/animated/csharp.svg?v=2" width="22" height="22" alt="C#" title="C#" /></picture>&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/dotnet.svg" /><img src="./assets/icons/animated/dotnet.svg?v=2" width="22" height="22" alt=".NET" title=".NET" /></picture>&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/windows11.svg" /><img src="./assets/icons/animated/windows11.svg?v=2" width="22" height="22" alt="Windows 11" title="Windows 11" /></picture></p>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3 align="center">SignAI / Gesto</h3>
-<a href="https://github.com/MakeItEzzz555/signai-asl-gesture-demo"><img src="assets/projects/signai.png" alt="SignAI ASL Gesture Recognition" width="100%"></a>
-<p align="center"><strong>Browser-based gesture recognition</strong><br>MediaPipe · ONNX Runtime · TensorFlow.js · TypeScript</p>
-<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/typescript.svg" /><img src="./assets/icons/animated/typescript.svg?v=2" width="22" height="22" alt="TypeScript" title="TypeScript" /></picture>&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/onnx.svg" /><img src="./assets/icons/animated/onnx.svg?v=2" width="22" height="22" alt="ONNX" title="ONNX" /></picture>&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/tensorflow.svg" /><img src="./assets/icons/animated/tensorflow.svg?v=2" width="22" height="22" alt="TensorFlow" title="TensorFlow" /></picture></p>
-</td>
-<td width="50%" valign="top">
-<h3 align="center">SkillShare Local</h3>
-<a href="https://github.com/MakeItEzzz555/skillshare-local"><img src="assets/projects/skillshare.png" alt="SkillShare Local session directory" width="100%"></a>
-<p align="center"><strong>Role-based learning-session platform</strong><br>PHP · MySQL · Sessions · Bookings · Ratings</p>
-<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/php.svg" /><img src="./assets/icons/animated/php.svg?v=2" width="22" height="22" alt="PHP" title="PHP" /></picture>&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/mysql.svg" /><img src="./assets/icons/animated/mysql.svg?v=2" width="22" height="22" alt="MySQL" title="MySQL" /></picture></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3 align="center">Swapee</h3>
-<a href="https://github.com/MakeItEzzz555/swapee-reuse-marketplace"><img src="assets/projects/swapee.png" alt="Swapee reuse marketplace" width="100%"></a>
-<p align="center"><strong>Swap, donate and resale marketplace</strong><br>PHP · MySQL · Listings · Transactions · Ratings</p>
-<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/php.svg" /><img src="./assets/icons/animated/php.svg?v=2" width="22" height="22" alt="PHP" title="PHP" /></picture>&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/mysql.svg" /><img src="./assets/icons/animated/mysql.svg?v=2" width="22" height="22" alt="MySQL" title="MySQL" /></picture></p>
-</td>
-<td width="50%" valign="top">
-<h3 align="center">BTC Price Prediction</h3>
-<a href="https://github.com/MakeItEzzz555/BTC-Price-Prediction"><img src="assets/projects/btc-prediction.png" alt="Bitcoin Price Prediction dashboard" width="100%"></a>
-<p align="center"><strong>Market-signal forecast dashboard</strong><br>Python · Flask · market data APIs</p>
-<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/python.svg" /><img src="./assets/icons/animated/python.svg?v=2" width="22" height="22" alt="Python" title="Python" /></picture>&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/flask.svg" /><img src="./assets/icons/animated/flask.svg?v=2" width="22" height="22" alt="Flask" title="Flask" /></picture>&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/bitcoin.svg" /><img src="./assets/icons/animated/bitcoin.svg?v=2" width="22" height="22" alt="Bitcoin" title="Bitcoin" /></picture></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3 align="center">Browser PGP Tool</h3>
-<a href="https://github.com/MakeItEzzz555/browser-pgp-tool"><img src="assets/projects/browser-pgp.png" alt="Browser OpenPGP encryption tool" width="100%"></a>
-<p align="center"><strong>Browser-only OpenPGP utility</strong><br>JavaScript · encryption · signing · verification</p>
-<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/javascript.svg" /><img src="./assets/icons/animated/javascript.svg?v=2" width="22" height="22" alt="JavaScript" title="JavaScript" /></picture></p>
-</td>
-<td width="50%" valign="top">
-<h3 align="center">Particle Physics</h3>
-<a href="https://github.com/MakeItEzzz555/browser-particle-physics"><img src="assets/projects/particle-physics.png" alt="Interactive browser particle physics sandbox" width="100%"></a>
-<p align="center"><strong>Interactive browser physics experiment</strong><br>Three.js · JavaScript · simulation · creative coding</p>
-<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/threedotjs.svg" /><img src="./assets/icons/animated/threedotjs.svg?v=2" width="22" height="22" alt="Three.js" title="Three.js" /></picture>&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/javascript.svg" /><img src="./assets/icons/animated/javascript.svg?v=2" width="22" height="22" alt="JavaScript" title="JavaScript" /></picture></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3 align="center">Studio Photosynthesis</h3>
-<a href="https://github.com/MakeItEzzz555/studio-photosynthesis-web"><img src="assets/projects/studio-photosynthesis.png" alt="Studio Photosynthesis photography website" width="100%"></a>
-<p align="center"><strong>Cinematic photography studio website</strong><br>React · TypeScript · Tailwind CSS · motion</p>
-<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/react.svg" /><img src="./assets/icons/animated/react.svg?v=2" width="22" height="22" alt="React" title="React" /></picture>&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/typescript.svg" /><img src="./assets/icons/animated/typescript.svg?v=2" width="22" height="22" alt="TypeScript" title="TypeScript" /></picture>&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/tailwindcss.svg" /><img src="./assets/icons/animated/tailwindcss.svg?v=2" width="22" height="22" alt="Tailwind CSS" title="Tailwind CSS" /></picture></p>
-</td>
-<td width="50%" valign="top">
-<h3 align="center">Pygame Particle Layers</h3>
-<a href="https://github.com/MakeItEzzz555/pygame-particle-layers"><img src="assets/projects/pygame-particles.png" alt="Pygame particle layer effect" width="100%"></a>
-<p align="center"><strong>Layered particle-animation experiment</strong><br>Python · Pygame · visual effects · creative coding</p>
-<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/python.svg" /><img src="./assets/icons/animated/python.svg?v=2" width="22" height="22" alt="Python" title="Python" /></picture></p>
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-<h3 align="center">DynamicIsland</h3>
-<img src="assets/projects/dynamic-island.jpg" alt="DynamicIsland native macOS expanded workspace with media, Live Activities and shortcuts" width="100%">
-<p align="center"><strong>Native macOS notch workspace</strong><br>Swift · SwiftUI · AppKit · media controls · Live Activities · shortcuts</p>
-<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/swift.svg" /><img src="./assets/icons/animated/swift.svg?v=2" width="22" height="22" alt="Swift" title="Swift" /></picture>&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/apple.svg" /><img src="./assets/icons/animated/apple.svg?v=2" width="22" height="22" alt="Apple" title="macOS" /></picture></p>
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-<h3 align="center">Dungeon Escape</h3>
-<a href="https://github.com/MakeItEzzz555/Dungeon_Escape_Project"><img src="https://raw.githubusercontent.com/MakeItEzzz555/Dungeon_Escape_Project/main/Assets/DU_UI_HUD_Free/GamesTitleBanner.png" alt="Dungeon Escape project banner from the repository README" width="100%"></a>
-<p align="center"><strong>Unity 6 top-down dungeon action/adventure</strong><br>Unity · C# · URP · combat · enemy FSMs · bosses · hazards · progression</p>
-<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/unity.svg" /><img src="./assets/icons/animated/unity.svg?v=2" width="22" height="22" alt="Unity" title="Unity" /></picture>&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/dotnet.svg" /><img src="./assets/icons/animated/dotnet.svg?v=2" width="22" height="22" alt=".NET / C#" title="C#" /></picture></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3 align="center">Student Timetable Manager</h3>
-<a href="https://github.com/MakeItEzzz555/student-timetable-manager-acsc382-assignment-2"><img src="assets/projects/student-timetable.png" alt="Student Timetable Manager Swing application" width="100%"></a>
-<p align="center"><strong>Desktop timetable-management application</strong><br>Java · Swing · file-backed student/course workflows</p>
-<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/openjdk.svg" /><img src="./assets/icons/animated/openjdk.svg?v=2" width="22" height="22" alt="Java" title="Java" /></picture></p>
-</td>
-<td width="50%" valign="top">
-<h3 align="center">JavaFX Particle Animation</h3>
-<a href="https://github.com/MakeItEzzz555/javafx-particle-animation"><img src="assets/projects/javafx-particles.png" alt="JavaFX particle animation canvas" width="100%"></a>
-<p align="center"><strong>Animated JavaFX particle canvas</strong><br>Java · JavaFX · canvas rendering · particle motion</p>
-<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/openjdk.svg" /><img src="./assets/icons/animated/openjdk.svg?v=2" width="22" height="22" alt="Java" title="Java" /></picture></p>
-</td>
-</tr>
-</table>
-
-
-<p align="center">
-  <sub>Visual archive combines real project screenshots stored in this profile with visuals sourced from the projects themselves. Builds without a suitable captured interface remain represented in the Project Ecosystem above.</sub>
-</p>
-
-<br>
-
-<p align="center">
-  <a href="https://github.com/MakeItEzzz555?tab=repositories">
-    <img src="https://img.shields.io/badge/EXPLORE_ALL_REPOSITORIES-0B2B1D?style=for-the-badge&logo=github&logoColor=7DFFB4" alt="Explore all repositories" />
-  </a>
-  <a href="https://github.com/MakeItEzzz555/frederick-university-coursework">
-    <img src="https://img.shields.io/badge/COURSEWORK_ARCHIVE-0B2B1D?style=for-the-badge&logo=github&logoColor=7DFFB4" alt="Coursework archive" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="./assets/animated/footer.svg" width="100%" alt="Animated profile footer — Beyond the Pins" />
-</p>
+<img src="./assets/telemetry/footer.svg" width="100%" alt="End of profile." />
