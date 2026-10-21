@@ -1,75 +1,53 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/signal/night/hero.svg" /><img src="./assets/signal/day/hero.svg" width="100%" alt="Nicolas Savvides. His name flown as a signal-flag hoist; flag V, I require assistance." /></picture>
+<img src="./assets/telemetry/hero.svg" width="100%" alt="Nicolas Savvides, full-stack product engineer, with a rotating globe of the 28 technologies he uses." />
 
-I build tools that live inside AI coding agents, and ship native macOS, web and game software through [Exodia Studios](https://exodiastudios.com). Most of it is open source.
-
-<p>
-  <a href="https://github.com/sponsors/MakeItEzzz555"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/signal/night/link-sponsor.svg" /><img src="./assets/signal/day/link-sponsor.svg" width="32%" alt="Sponsor on GitHub" /></picture></a>
-  <a href="https://github.com/MakeItEzzz555?tab=followers"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/signal/night/link-follow.svg" /><img src="./assets/signal/day/link-follow.svg" width="32%" alt="Follow on GitHub" /></picture></a>
-  <a href="https://exodiastudios.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/signal/night/link-studio.svg" /><img src="./assets/signal/day/link-studio.svg" width="32%" alt="exodiastudios.com" /></picture></a>
-</p>
+Full-stack product engineer in Cyprus. I build tools that live inside AI coding agents, and ship native macOS, web and game software through [Exodia Studios](https://exodiastudios.com).
 
 <p>
-  <img src="https://img.shields.io/github/followers/MakeItEzzz555?style=flat-square&label=followers&labelColor=14181F&color=1F3B8C" alt="GitHub followers" />
-  <img src="https://komarev.com/ghpvc/?username=MakeItEzzz555&style=flat-square&color=1F3B8C&label=profile+views" alt="Profile views" />
+  <a href="https://github.com/sponsors/MakeItEzzz555"><img src="./assets/telemetry/link-sponsor.svg" width="32%" alt="Sponsor on GitHub" /></a>
+  <a href="https://github.com/MakeItEzzz555?tab=followers"><img src="./assets/telemetry/link-follow.svg" width="32%" alt="Follow on GitHub" /></a>
+  <a href="https://exodiastudios.com"><img src="./assets/telemetry/link-studio.svg" width="32%" alt="exodiastudios.com" /></a>
 </p>
 
-<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/typescript.svg" /><img src="./assets/icons/animated/typescript.svg?v=2" width="34" height="34" alt="TypeScript" title="TypeScript" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/javascript.svg" /><img src="./assets/icons/animated/javascript.svg?v=2" width="34" height="34" alt="JavaScript" title="JavaScript" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/python.svg" /><img src="./assets/icons/animated/python.svg?v=2" width="34" height="34" alt="Python" title="Python" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/csharp.svg" /><img src="./assets/icons/animated/csharp.svg?v=2" width="34" height="34" alt="C#" title="C#" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/openjdk.svg" /><img src="./assets/icons/animated/openjdk.svg?v=2" width="34" height="34" alt="Java" title="Java" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/cplusplus.svg" /><img src="./assets/icons/animated/cplusplus.svg?v=2" width="34" height="34" alt="C++" title="C++" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/c.svg" /><img src="./assets/icons/animated/c.svg?v=2" width="34" height="34" alt="C" title="C" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/php.svg" /><img src="./assets/icons/animated/php.svg?v=2" width="34" height="34" alt="PHP" title="PHP" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/swift.svg" /><img src="./assets/icons/animated/swift.svg?v=2" width="34" height="34" alt="Swift" title="Swift" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/gnubash.svg" /><img src="./assets/icons/animated/gnubash.svg?v=2" width="34" height="34" alt="Bash" title="Bash" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/html5.svg" /><img src="./assets/icons/animated/html5.svg?v=2" width="34" height="34" alt="HTML5" title="HTML5" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/css3.svg" /><img src="./assets/icons/animated/css3.svg?v=2" width="34" height="34" alt="CSS3" title="CSS3" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/mysql.svg" /><img src="./assets/icons/animated/mysql.svg?v=2" width="34" height="34" alt="MySQL" title="MySQL" /></picture></p>
-<p align="center"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/react.svg" /><img src="./assets/icons/animated/react.svg?v=2" width="34" height="34" alt="React" title="React" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/nextdotjs.svg" /><img src="./assets/icons/animated/nextdotjs.svg?v=2" width="34" height="34" alt="Next.js" title="Next.js" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/nodedotjs.svg" /><img src="./assets/icons/animated/nodedotjs.svg?v=2" width="34" height="34" alt="Node.js" title="Node.js" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/vite.svg" /><img src="./assets/icons/animated/vite.svg?v=2" width="34" height="34" alt="Vite" title="Vite" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/tailwindcss.svg" /><img src="./assets/icons/animated/tailwindcss.svg?v=2" width="34" height="34" alt="Tailwind CSS" title="Tailwind CSS" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/flask.svg" /><img src="./assets/icons/animated/flask.svg?v=2" width="34" height="34" alt="Flask" title="Flask" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/dotnet.svg" /><img src="./assets/icons/animated/dotnet.svg?v=2" width="34" height="34" alt=".NET" title=".NET" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/unity.svg" /><img src="./assets/icons/animated/unity.svg?v=2" width="34" height="34" alt="Unity" title="Unity" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/threedotjs.svg" /><img src="./assets/icons/animated/threedotjs.svg?v=2" width="34" height="34" alt="Three.js" title="Three.js" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/arduino.svg" /><img src="./assets/icons/animated/arduino.svg?v=2" width="34" height="34" alt="Arduino" title="Arduino" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/git.svg" /><img src="./assets/icons/animated/git.svg?v=2" width="34" height="34" alt="Git" title="Git" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/github.svg" /><img src="./assets/icons/animated/github.svg?v=2" width="34" height="34" alt="GitHub" title="GitHub" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/visualstudiocode.svg" /><img src="./assets/icons/animated/visualstudiocode.svg?v=2" width="34" height="34" alt="VS Code" title="VS Code" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/onnx.svg" /><img src="./assets/icons/animated/onnx.svg?v=2" width="34" height="34" alt="ONNX" title="ONNX" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/icons/tensorflow.svg" /><img src="./assets/icons/animated/tensorflow.svg?v=2" width="34" height="34" alt="TensorFlow" title="TensorFlow" /></picture></p>
+<img src="./assets/telemetry/work.svg" width="100%" alt="Work" />
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/signal/night/work.svg" /><img src="./assets/signal/day/work.svg" width="100%" alt="Work" /></picture>
+<a href="https://github.com/MakeItEzzz555/tuck-bit"><img src="./assets/telemetry/sheet-tuck-bit.svg" width="100%" alt="TuckBit" /></a>
+<a href="https://github.com/MakeItEzzz555/tuck-bit"><img src="./assets/work/tuckbit-dark.jpg" width="100%" alt="TuckBit: every tool, right on cue" /></a>
 
-<a href="https://github.com/MakeItEzzz555/tuck-bit"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/signal/night/plate-tuckbit.svg" /><img src="./assets/signal/day/plate-tuckbit.svg" width="100%" alt="TuckBit, flags T and B" /></picture></a>
-<a href="https://github.com/MakeItEzzz555/tuck-bit"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/work/tuckbit-dark.jpg" /><img src="./assets/work/tuckbit-light.jpg" width="100%" alt="TuckBit: right tools, scoped context and adaptive workflows on cue" /></picture></a>
+<a href="https://github.com/MakeItEzzz555/claude-widget-kit"><img src="./assets/telemetry/sheet-claude-widget-kit.svg" width="100%" alt="Claude Widget Kit" /></a>
+<a href="https://github.com/MakeItEzzz555/claude-widget-kit"><img src="./assets/work/claude-kit.jpg" width="100%" alt="Claude Widget Kit usage rings and agents panel inside Claude Code" /></a>
 
-**TuckBit** gives Codex, Claude, Gemini and other coding agents the right tools, scoped context and adaptive workflows on cue. Portable skills and plugins, one install. <img src="https://img.shields.io/github/stars/MakeItEzzz555/tuck-bit?style=flat-square&label=stars&labelColor=14181F&color=1F3B8C" alt="tuck-bit stars" />
-
-<a href="https://github.com/MakeItEzzz555/claude-widget-kit"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/signal/night/plate-claude-kit.svg" /><img src="./assets/signal/day/plate-claude-kit.svg" width="100%" alt="Claude Widget Kit, flags C and W" /></picture></a>
-<a href="https://github.com/MakeItEzzz555/claude-widget-kit"><img src="./assets/work/claude-kit.jpg" width="100%" alt="Claude Widget Kit usage rings, effort meter and agents panel inside Claude Code" /></a>
-
-**Claude Widget Kit** draws live usage rings, an effort meter, task ETA and an agents panel right inside Claude Code. [Website](https://makeitezzz555.github.io/claude-widget-kit/) <img src="https://img.shields.io/github/stars/MakeItEzzz555/claude-widget-kit?style=flat-square&label=stars&labelColor=14181F&color=1F3B8C" alt="claude-widget-kit stars" />
-
-<a href="https://github.com/MakeItEzzz555/codex-widget-kit"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/signal/night/plate-codex-kit.svg" /><img src="./assets/signal/day/plate-codex-kit.svg" width="100%" alt="Codex Widget Kit, flags X and W" /></picture></a>
+<a href="https://github.com/MakeItEzzz555/codex-widget-kit"><img src="./assets/telemetry/sheet-codex-widget-kit.svg" width="100%" alt="Codex Widget Kit" /></a>
 <a href="https://github.com/MakeItEzzz555/codex-widget-kit"><img src="./assets/work/codex-kit.jpg" width="100%" alt="Codex Widget Kit dashboard with usage rings and sub-agent cards" /></a>
 
-**Codex Widget Kit** brings the same live gauges and sub-agent cards to the Codex CLI in their own terminal pane. Zero dependencies, read-only. [Website](https://makeitezzz555.github.io/codex-widget-kit/) <img src="https://img.shields.io/github/stars/MakeItEzzz555/codex-widget-kit?style=flat-square&label=stars&labelColor=14181F&color=1F3B8C" alt="codex-widget-kit stars" />
-
 <p>
-  <a href="https://github.com/MakeItEzzz555/signai-asl-gesture-demo"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/signal/night/tag-signai.svg" /><img src="./assets/signal/day/tag-signai.svg" width="49%" alt="SignAI" /></picture></a>
-  <a href="https://github.com/MakeItEzzz555/grapharium"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/signal/night/tag-grapharium.svg" /><img src="./assets/signal/day/tag-grapharium.svg" width="49%" alt="Grapharium" /></picture></a><br />
-  <a href="https://github.com/MakeItEzzz555/signai-asl-gesture-demo"><img src="./assets/work/signai.jpg" width="49%" alt="SignAI recognising an ASL gesture in the browser" /></a>
-  <a href="https://github.com/MakeItEzzz555/grapharium"><img src="./assets/work/grapharium.jpg" width="49%" alt="Grapharium rendering a code graph as a spiral galaxy" /></a>
+  <img src="./assets/telemetry/tag-signai-asl-gesture-demo.svg" width="49%" alt="SignAI" />
+  <a href="https://github.com/MakeItEzzz555/grapharium"><img src="./assets/telemetry/tag-grapharium.svg" width="49%" alt="Grapharium" /></a><br />
+  <img src="./assets/work/signai.jpg" width="49%" alt="SignAI recognising an ASL gesture in the browser" />
+  <a href="https://github.com/MakeItEzzz555/grapharium"><img src="./assets/work/grapharium.jpg" width="49%" alt="Grapharium rendering a code graph as a galaxy" /></a>
 </p>
 <p>
-  <a href="https://github.com/MakeItEzzz555/Dungeon_Escape_Project"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/signal/night/tag-dungeon.svg" /><img src="./assets/signal/day/tag-dungeon.svg" width="49%" alt="Dungeon Escape" /></picture></a>
-  <a href="https://github.com/MakeItEzzz555/AirPTTBridge"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/signal/night/tag-airptt.svg" /><img src="./assets/signal/day/tag-airptt.svg" width="49%" alt="AirPTTBridge" /></picture></a><br />
+  <a href="https://github.com/MakeItEzzz555/Dungeon_Escape_Project"><img src="./assets/telemetry/tag-Dungeon_Escape_Project.svg" width="49%" alt="Dungeon Escape" /></a>
+  <a href="https://github.com/MakeItEzzz555/AirPTTBridge"><img src="./assets/telemetry/tag-AirPTTBridge.svg" width="49%" alt="AirPTTBridge" /></a><br />
   <a href="https://github.com/MakeItEzzz555/Dungeon_Escape_Project"><img src="./assets/work/dungeon.jpg" width="49%" alt="Dungeon Escape title banner" /></a>
-  <a href="https://github.com/MakeItEzzz555/AirPTTBridge"><img src="./assets/work/airptt.jpg" width="49%" alt="AirPTTBridge setup and system check window" /></a>
+  <a href="https://github.com/MakeItEzzz555/AirPTTBridge"><img src="./assets/work/airptt.jpg" width="49%" alt="AirPTTBridge setup window" /></a>
 </p>
 <p>
-  <a href="https://github.com/MakeItEzzz555/predictx"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/signal/night/tag-predictx.svg" /><img src="./assets/signal/day/tag-predictx.svg" width="49%" alt="PredictX" /></picture></a>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/signal/night/tag-dynamicisland.svg" /><img src="./assets/signal/day/tag-dynamicisland.svg" width="49%" alt="DynamicIsland" /></picture><br />
-  <a href="https://github.com/MakeItEzzz555/predictx"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/signal/night/frame-predictx.svg" /><img src="./assets/signal/day/frame-predictx.svg" width="49%" alt="PredictX, flags P and X" /></picture></a>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/signal/night/frame-dynamicisland.svg" /><img src="./assets/signal/day/frame-dynamicisland.svg" width="49%" alt="DynamicIsland, flags D and I" /></picture>
+  <a href="https://github.com/MakeItEzzz555/predictx"><img src="./assets/telemetry/tag-predictx.svg" width="49%" alt="PredictX" /></a>
+  <img src="./assets/telemetry/tag-DynamicIsland.svg" width="49%" alt="DynamicIsland" />
 </p>
 
-**SignAI**: ASL gesture recognition that runs entirely in the browser (MediaPipe, ONNX Runtime Web). **Grapharium**: your codebase as a navigable 3D universe, offline. **Dungeon Escape**: a Unity 6 dungeon game with bosses and enemy state machines. **AirPTTBridge**: routes an AirPods mic into push-to-talk on Windows. **PredictX**: a prediction market with live order books and Stripe. **DynamicIsland**: a native macOS notch workspace, in private development.
+**SignAI**: ASL gesture recognition entirely in the browser, in private development. **Grapharium**: your codebase as a navigable 3D universe, offline. **Dungeon Escape**: a Unity 6 dungeon game with bosses and enemy state machines. **AirPTTBridge**: routes an AirPods mic into push-to-talk on Windows. **PredictX**: a prediction market with live order books and Stripe. **DynamicIsland**: a native macOS notch workspace, in private development.
 
-<a href="https://exodiastudios.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/signal/night/studio.svg" /><img src="./assets/signal/day/studio.svg" width="100%" alt="Exodia Studios: web products, native macOS, AI-agent tooling, games." /></picture></a>
+<a href="https://exodiastudios.com"><img src="./assets/telemetry/studio.svg" width="100%" alt="Exodia Studios: web products, native macOS, AI-agent tooling, games." /></a>
 
-<p>
-  <a href="https://exodiastudios.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/signal/night/link-studio.svg" /><img src="./assets/signal/day/link-studio.svg" width="32%" alt="Start a project at exodiastudios.com" /></picture></a>
-</p>
+<img src="./assets/telemetry/contributions.svg" width="100%" alt="Contributions: calendar, total GitHub stars, current and longest streak, refreshed daily." />
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/signal/night/log.svg" /><img src="./assets/signal/day/log.svg" width="100%" alt="Log: contributions, stars and streaks, refreshed daily." /></picture>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=MakeItEzzz555&hide_border=true&border_radius=0&background=0D1630&stroke=A5ADC2&ring=9DB2EC&fire=F2C230&currStreakNum=EEF0F4&sideNums=EEF0F4&currStreakLabel=EEF0F4&sideLabels=A5ADC2&dates=A5ADC2" /><img src="https://streak-stats.demolab.com?user=MakeItEzzz555&hide_border=true&border_radius=0&background=F2EFE8&stroke=555B66&ring=1F3B8C&fire=F2C230&currStreakNum=14181F&sideNums=14181F&currStreakLabel=14181F&sideLabels=555B66&dates=555B66" width="100%" alt="GitHub contribution streak" /></picture>
-
-<a href="https://github.com/sponsors/MakeItEzzz555"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/signal/night/sponsor.svg" /><img src="./assets/signal/day/sponsor.svg" width="100%" alt="Sponsor: name in README, company logos in project READMEs, priority issues." /></picture></a>
+<a href="https://github.com/sponsors/MakeItEzzz555"><img src="./assets/telemetry/sponsor.svg" width="100%" alt="Sponsor: name in README, company logos, issues looked at first." /></a>
 
 <p>
-  <a href="https://github.com/sponsors/MakeItEzzz555"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/signal/night/link-sponsor.svg" /><img src="./assets/signal/day/link-sponsor.svg" width="32%" alt="Sponsor on GitHub" /></picture></a>
+  <a href="https://github.com/sponsors/MakeItEzzz555"><img src="./assets/telemetry/link-sponsor.svg" width="32%" alt="Sponsor on GitHub" /></a>
 </p>
 
 <sub>University coursework lives in its own archive: [frederick-university-coursework](https://github.com/MakeItEzzz555/frederick-university-coursework).</sub>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/signal/night/close.svg" /><img src="./assets/signal/day/close.svg" width="100%" alt="Signal UW: thank you for your cooperation, I wish you a pleasant voyage." /></picture>
+<img src="./assets/telemetry/footer.svg" width="100%" alt="End of profile." />

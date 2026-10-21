@@ -20,24 +20,10 @@ class Images(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.images = []
-        self.pictures = []
-        self.current_picture = None
     def handle_starttag(self, tag, attrs):
-        attributes = dict(attrs)
-        if tag.lower() == "picture":
-            self.current_picture = {"sources": [], "images": []}
-            self.pictures.append(self.current_picture)
-        elif tag.lower() == "source":
-            if self.current_picture is not None:
-                self.current_picture["sources"].append(attributes)
-        elif tag.lower() == "img":
-            record = (attributes.get("src"), attributes.get("alt"))
-            self.images.append(record)
-            if self.current_picture is not None:
-                self.current_picture["images"].append(record)
-    def handle_endtag(self, tag):
-        if tag.lower() == "picture":
-            self.current_picture = None
+        if tag.lower() == "img":
+            attributes = dict(attrs)
+            self.images.append((attributes.get("src"), attributes.get("alt")))
 
 def check_svg(path):
     tree = ET.parse(path)
@@ -85,34 +71,6 @@ def validate(root, check_remote=False):
         local.append(path)
         if not alt:
             errors.append(f"Missing image accessibility alt text: {relative}")
-    seen_animated = set()
-    for picture in parser.pictures:
-        images = picture["images"]
-        sources = picture["sources"]
-        if len(images) != 1 or len(sources) != 1:
-            errors.append("Picture requires one image and one source")
-            continue
-        if sources[0].get("media") == "(prefers-color-scheme: dark)":
-            dark = sources[0].get("srcset", "")
-            for ref in (images[0][0] or "", dark):
-                if urlsplit(ref).scheme not in ("http", "https") and not (root / ref.removeprefix("./")).is_file():
-                    errors.append("Theme picture file missing: " + ref)
-            continue
-        src, alt = images[0]
-        source = sources[0]
-        if not src or "/animated/" not in src:
-            errors.append("Motion picture missing generated image")
-            continue
-        static = urlsplit(src).path.replace("/animated/", "/")
-        if source.get("media") != "(prefers-reduced-motion: reduce)" or source.get("srcset") != static:
-            errors.append("Motion picture lacks correct reduced-motion fallback: " + src)
-        if not (root / static.removeprefix("./")).is_file():
-            errors.append("Motion picture static fallback missing: " + static)
-        seen_animated.add(src)
-    for src, _ in parser.images:
-        if src and "/assets/icons/animated/" in src and src not in seen_animated:
-            errors.append("Animated image without reduced-motion fallback: " + src)
-
     svg_files = sorted(set(root.glob("assets/**/*.svg")))
     for path in svg_files:
         try:

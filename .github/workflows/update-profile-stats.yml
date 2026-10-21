@@ -34,12 +34,12 @@ jobs:
 
       - name: Commit refreshed telemetry
         run: |
-          if git diff --quiet -- assets/signal; then
+          if git diff --quiet -- assets/telemetry; then
             echo "Profile telemetry is already current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/signal/*/log.svg
+          git add assets/telemetry
           git commit -m "chore(profile): refresh contribution telemetry"
           git push

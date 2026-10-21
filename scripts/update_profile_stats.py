@@ -10,7 +10,7 @@ from pathlib import Path
 USERNAME = os.getenv("PROFILE_USERNAME", "MakeItEzzz555")
 TOKEN = os.getenv("GITHUB_TOKEN", "")
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-OUT = Path("assets/signal")
+OUT = Path(__file__).resolve().parents[1] / "assets" / "telemetry"
 
 def request_json(url, payload=None):
     headers = {
@@ -31,6 +31,8 @@ def public_stats():
     repos = request_json(f"https://api.github.com/users/{USERNAME}/repos?per_page=100&type=owner&sort=updated")
     owned = [r for r in repos if not r.get("fork")]
     return {
+        "per_repo": {r["name"]: {"stars": int(r.get("stargazers_count", 0)), "pushed": (r.get("pushed_at") or "")[:10],
+                                 "license": (r.get("license") or {}).get("spdx_id")} for r in owned},
         "repos": int(user.get("public_repos", len(owned))),
         "followers": int(user.get("followers", 0)),
         "stars": sum(int(r.get("stargazers_count", 0)) for r in owned),
@@ -65,76 +67,52 @@ def contribution_calendar():
     return result["data"]["user"]["contributionsCollection"]["contributionCalendar"]
 
 def summary(calendar):
-    """Day/month/year totals and streaks from the contribution calendar (last day = today)."""
-    days = [(d["date"], int(d.get("contributionCount", 0)))
-            for w in calendar.get("weeks", []) for d in w.get("contributionDays", [])]
-    days.sort()
+    """Day/month/year totals and streaks (with date ranges) from the calendar; last day = today."""
+    days = sorted((d["date"], int(d.get("contributionCount", 0)))
+                  for w in calendar.get("weeks", []) for d in w.get("contributionDays", []))
     if not days:
-        return {"today": 0, "month": 0, "year": 0, "window": 0, "current": 0, "longest": 0}
+        return {"today": 0, "month": 0, "year": 0, "window": 0, "current": 0, "longest": 0,
+                "current_from": None, "longest_from": None, "longest_to": None}
     today = days[-1][0]
-    longest = run = 0
-    for _, count in days:
-        run = run + 1 if count else 0
-        longest = max(longest, run)
-    current = 0
+    longest, longest_span, run, run_from = 0, (None, None), 0, None
+    for date, count in days:
+        run, run_from = (run + 1, run_from or date) if count else (0, None)
+        if run > longest:
+            longest, longest_span = run, (run_from, date)
+    current, current_from = 0, None
     tail = days[:-1] if days[-1][1] == 0 else days  # an empty today doesn't break the streak yet
-    for _, count in reversed(tail):
+    for date, count in reversed(tail):
         if not count:
             break
-        current += 1
+        current, current_from = current + 1, date
     return {
         "today": days[-1][1],
         "month": sum(c for d, c in days if d[:7] == today[:7]),
         "year": sum(c for d, c in days if d[:4] == today[:4]),
         "window": int(calendar.get("totalContributions", sum(c for _, c in days))),
-        "current": current,
-        "longest": longest,
+        "current": current, "current_from": current_from,
+        "longest": longest, "longest_from": longest_span[0], "longest_to": longest_span[1],
     }
-
-
-def level(count, maximum):
-    if count <= 0:
-        return 0
-    return 1 + min(2, int(3 * count / max(1, maximum + 1)))
-
-
-def render(stats, calendar, t):
-    from build_signal_panels import W, svg, text
-    weeks = calendar.get("weeks", [])[-53:]
-    peak = max([int(d.get("contributionCount", 0)) for w in weeks for d in w.get("contributionDays", [])] or [0])
-    cells = []
-    for wi, week in enumerate(weeks):
-        for day in week.get("contributionDays", []):
-            count = int(day.get("contributionCount", 0))
-            x, y = 96 + wi * 27, 196 + int(day.get("weekday", 0)) * 27
-            cells.append(f'<rect x="{x}" y="{y}" width="22" height="22" fill="{t["cells"][level(count, peak)]}">'
-                         f'<title>{html.escape(day.get("date", ""))}: {count}</title></rect>')
-    s = summary(calendar)
-    rows = [("Contributions today", s["today"], "Stars across my repositories", stats["stars"]),
-            ("This month", s["month"], "Followers", stats["followers"]),
-            ("This year", s["year"], "Current streak, days", s["current"]),
-            ("Last 365 days", s["window"], "Longest streak, 365 days", s["longest"])]
-    body = text(96, 130, "Log", 104, t, "display", tracking=-3)
-    updated = dt.datetime.now(dt.timezone.utc).strftime("%-d %B %Y")
-    body += text(W - 96, 130, f"Updated {updated}, refreshed daily", 30, t, fill=t["muted"], anchor="end")
-    body += "".join(cells)
-    for i, (la, va, lb, vb) in enumerate(rows):
-        y = 470 + i * 84
-        body += f'<path d="M96 {y - 58}H{W - 96}" stroke="{t["rule"]}" stroke-width="2"/>'
-        body += text(96, y, la, 36, t, fill=t["muted"]) + text(780, y, str(va), 48, t, "display", anchor="end")
-        body += text(884, y, lb, 36, t, fill=t["muted"]) + text(W - 96, y, str(vb), 48, t, "display", anchor="end")
-    return svg(800, t, body, f"Log: {stats['stars']} stars, {s['year']} contributions this year, "
-                            f"current streak {s['current']} days.")
 
 
 def main():
     stats = public_stats()
     calendar = contribution_calendar()
-    from build_signal_panels import THEMES
-    for mode, theme in THEMES.items():
-        (OUT / mode).mkdir(parents=True, exist_ok=True)
-        (OUT / mode / "log.svg").write_text(render(stats, calendar, theme), encoding="utf-8")
-    print(f"Wrote {OUT}: {stats}, contributions={calendar.get('totalContributions', 0)}")
+    days = sorted(((d["date"], int(d.get("contributionCount", 0)), int(d.get("weekday", 0)))
+                   for w in calendar.get("weeks", [])[-53:] for d in w.get("contributionDays", [])))
+    data = {
+        "updated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d"),
+        "stars": stats["stars"], "followers": stats["followers"], "public_repos": stats["repos"],
+        "summary": summary(calendar),
+        "calendar": days,
+    }
+    data["repos"] = stats["per_repo"]
+    OUT.mkdir(parents=True, exist_ok=True)
+    (OUT / "data.json").write_text(json.dumps(data, indent=1, sort_keys=True) + "\n", encoding="utf-8")
+    import build_telemetry_panels
+    build_telemetry_panels.main_write()
+    print(f"Wrote {OUT}: stars={stats['stars']}, contributions={calendar.get('totalContributions', 0)}")
+
 
 if __name__ == "__main__":
     main()
