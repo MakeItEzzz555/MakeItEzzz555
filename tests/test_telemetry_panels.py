@@ -33,6 +33,50 @@ class TelemetryPanelTests(unittest.TestCase):
         self.assertNotIn("sheet-codex-widget-kit.svg", readme)
         self.assertNotIn("assets/work/codex-kit.jpg", readme)
 
+    def test_contribution_card_uses_dynamic_counts_and_repo_metadata(self):
+        from xml.etree import ElementTree as ET
+
+        def labels(svg):
+            return [node.text for node in ET.fromstring(svg).iter()
+                    if node.tag.endswith("text") and node.text]
+
+        data = {
+            "updated": "2026-10-23",
+            "stars": 13,
+            "followers": 3,
+            "public_repos": 7,
+            "summary": {
+                "today": 2, "month": 11, "year": 101, "window": 211,
+                "current": 4, "current_from": "2026-10-20",
+                "longest": 6, "longest_from": "2026-10-08",
+                "longest_to": "2026-10-13",
+            },
+            "calendar": [("2026-10-23", 2, 5)],
+            "repos": {"Gridline": {"stars": 6, "pushed": "2026-10-23", "license": "MIT"}},
+        }
+        first = labels(panels.contributions(data))
+        for field in ("13", "3", "7", "2", "11", "101", "211", "4 DAYS", "6 DAYS"):
+            self.assertIn(field, first)
+        card = labels(panels.project_sheet("Gridline", "Gridline",
+                                          "AI skills for architecture, CAD and BIM.",
+                                          "PYTHON / CAD / BIM", data))
+        for field in ("6", "2026-10-23", "MIT"):
+            self.assertIn(field, card)
+        data["stars"] = 26
+        data["followers"] = 5
+        data["public_repos"] = 8
+        data["summary"]["month"] = 20
+        data["repos"]["Gridline"]["stars"] = 12
+        second = labels(panels.contributions(data))
+        self.assertIn("26", second)
+        self.assertIn("5", second)
+        self.assertIn("8", second)
+        self.assertIn("20", second)
+        self.assertNotEqual(first, second)
+        self.assertIn("12", labels(panels.project_sheet(
+            "Gridline", "Gridline", "AI skills for architecture, CAD and BIM.",
+            "PYTHON / CAD / BIM", data)))
+
     def test_committed_panels_match_generator(self):
         for rel, content in panels.outputs().items():
             with self.subTest(rel=rel):
