@@ -19,6 +19,20 @@ def calendar(counts, start="2026-09-28"):
 
 
 class TelemetryPanelTests(unittest.TestCase):
+    def test_flagships_order_and_readme_showcase(self):
+        self.assertEqual([repo for repo, *_ in panels.FLAGSHIPS],
+                         ["tuck-bit", "Gridline", "claude-widget-kit"])
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        tuck = readme.index("./assets/telemetry/sheet-tuck-bit.svg")
+        gridline = readme.index("./assets/telemetry/sheet-Gridline.svg")
+        claude = readme.index("./assets/telemetry/sheet-claude-widget-kit.svg")
+        self.assertLess(tuck, gridline)
+        self.assertLess(gridline, claude)
+        self.assertIn("https://github.com/MakeItEzzz555/Gridline", readme)
+        self.assertIn("./assets/work/gridline-preview.png", readme)
+        self.assertNotIn("sheet-codex-widget-kit.svg", readme)
+        self.assertNotIn("assets/work/codex-kit.jpg", readme)
+
     def test_committed_panels_match_generator(self):
         for rel, content in panels.outputs().items():
             with self.subTest(rel=rel):

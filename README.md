@@ -13,11 +13,11 @@ Full-stack product engineer in Cyprus. I build tools that live inside AI coding 
 <a href="https://github.com/MakeItEzzz555/tuck-bit"><img src="./assets/telemetry/sheet-tuck-bit.svg" width="100%" alt="TuckBit" /></a>
 <a href="https://github.com/MakeItEzzz555/tuck-bit"><img src="./assets/work/tuckbit-dark.jpg" width="100%" alt="TuckBit: every tool, right on cue" /></a>
 
+<a href="https://github.com/MakeItEzzz555/Gridline"><img src="./assets/telemetry/sheet-Gridline.svg" width="100%" alt="Gridline: AI skills for architecture, CAD and BIM" /></a>
+<a href="https://github.com/MakeItEzzz555/Gridline"><img src="./assets/work/gridline-preview.png" width="100%" alt="Gridline architectural identity with technical drafting lines and modern building visualization" /></a>
+
 <a href="https://github.com/MakeItEzzz555/claude-widget-kit"><img src="./assets/telemetry/sheet-claude-widget-kit.svg" width="100%" alt="Claude Widget Kit" /></a>
 <a href="https://github.com/MakeItEzzz555/claude-widget-kit"><img src="./assets/work/claude-kit.jpg" width="100%" alt="Claude Widget Kit usage rings and agents panel inside Claude Code" /></a>
-
-<a href="https://github.com/MakeItEzzz555/codex-widget-kit"><img src="./assets/telemetry/sheet-codex-widget-kit.svg" width="100%" alt="Codex Widget Kit" /></a>
-<a href="https://github.com/MakeItEzzz555/codex-widget-kit"><img src="./assets/work/codex-kit.jpg" width="100%" alt="Codex Widget Kit dashboard with usage rings and sub-agent cards" /></a>
 
 <p>
   <img src="./assets/telemetry/tag-signai-asl-gesture-demo.svg" width="49%" alt="SignAI" />

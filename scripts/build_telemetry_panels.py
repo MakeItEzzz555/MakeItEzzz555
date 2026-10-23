@@ -398,8 +398,8 @@ def footer():
 
 
 FLAGSHIPS = [("tuck-bit", "TuckBit", "Right tools, scoped context and adaptive workflows on cue.", "PYTHON / MCP / SKILLS"),
-             ("claude-widget-kit", "Claude Widget Kit", "Live usage rings and agent cards inside Claude Code.", "TYPESCRIPT / MODS"),
-             ("codex-widget-kit", "Codex Widget Kit", "Live gauges and sub-agent cards for Codex CLI.", "NODE / ZERO DEPS")]
+             ("Gridline", "Gridline", "AI skills for architecture, CAD and BIM.", "PYTHON / CAD / BIM"),
+             ("claude-widget-kit", "Claude Widget Kit", "Live usage rings and agent cards inside Claude Code.", "TYPESCRIPT / MODS")]
 SECOND = [("signai-asl-gesture-demo", "SignAI", "MEDIAPIPE / ONNX / REACT"),
           ("grapharium", "Grapharium", "THREE.JS / PYTHON"),
           ("Dungeon_Escape_Project", "Dungeon Escape", "UNITY 6 / C#"),
