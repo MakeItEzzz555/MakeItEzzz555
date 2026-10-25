@@ -1822,7 +1822,7 @@
   ],
   [
    "2026-10-25",
-   6,
+   34,
    0
   ]
  ],
@@ -1851,7 +1851,7 @@
   },
   "MakeItEzzz555": {
    "license": null,
-   "pushed": "2026-10-24",
+   "pushed": "2026-10-25",
    "stars": 1
   },
   "MovFlix": {
@@ -2037,10 +2037,10 @@
   "longest": 12,
   "longest_from": "2026-10-14",
   "longest_to": "2026-10-25",
-  "month": 404,
-  "today": 6,
-  "window": 947,
-  "year": 947
+  "month": 432,
+  "today": 34,
+  "window": 975,
+  "year": 975
  },
  "updated": "2026-10-25"
 }
