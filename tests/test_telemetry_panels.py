@@ -29,7 +29,7 @@ class TelemetryPanelTests(unittest.TestCase):
         self.assertLess(tuck, gridline)
         self.assertLess(gridline, claude)
         self.assertIn("https://github.com/MakeItEzzz555/Gridline", readme)
-        self.assertIn("./assets/work/gridline-preview.png", readme)
+        self.assertIn("\nhttps://github.com/user-attachments/assets/a397a1b3-0f50-4d00-948a-62c9537144d8\n", readme)  # bare line, so GitHub renders the player
         self.assertNotIn("sheet-codex-widget-kit.svg", readme)
         self.assertNotIn("assets/work/codex-kit.jpg", readme)
 

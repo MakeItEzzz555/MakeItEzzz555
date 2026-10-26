@@ -14,7 +14,8 @@ Full-stack product engineer in Cyprus. I build tools that live inside AI coding 
 <a href="https://github.com/MakeItEzzz555/tuck-bit"><img src="./assets/work/tuckbit-dark.jpg" width="100%" alt="TuckBit: every tool, right on cue" /></a>
 
 <a href="https://github.com/MakeItEzzz555/Gridline"><img src="./assets/telemetry/sheet-Gridline.svg" width="100%" alt="Gridline: AI skills for architecture, CAD and BIM" /></a>
-<a href="https://github.com/MakeItEzzz555/Gridline"><img src="./assets/work/gridline-preview.png" width="100%" alt="Gridline architectural identity with technical drafting lines and modern building visualization" /></a>
+
+https://github.com/user-attachments/assets/a397a1b3-0f50-4d00-948a-62c9537144d8
 
 <a href="https://github.com/MakeItEzzz555/claude-widget-kit"><img src="./assets/telemetry/sheet-claude-widget-kit.svg" width="100%" alt="Claude Widget Kit" /></a>
 <a href="https://github.com/MakeItEzzz555/claude-widget-kit"><img src="./assets/work/claude-kit.jpg" width="100%" alt="Claude Widget Kit usage rings and agents panel inside Claude Code" /></a>
