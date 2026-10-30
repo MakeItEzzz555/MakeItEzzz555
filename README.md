@@ -37,7 +37,12 @@ https://github.com/user-attachments/assets/a397a1b3-0f50-4d00-948a-62c9537144d8
   <img src="./assets/telemetry/tag-DynamicIsland.svg" width="49%" alt="DynamicIsland" />
 </p>
 
-**SignAI**: ASL gesture recognition entirely in the browser, in private development. **Grapharium**: your codebase as a navigable 3D universe, offline. **Dungeon Escape**: a Unity 6 dungeon game with bosses and enemy state machines. **AirPTTBridge**: routes an AirPods mic into push-to-talk on Windows. **PredictX**: a prediction market with live order books and Stripe. **DynamicIsland**: a native macOS notch workspace, in private development.
+**SignAI**: ASL gesture recognition entirely in the browser, in private development.
+**Grapharium**: your codebase as a navigable 3D universe, offline. 
+**Dungeon Escape**: a Unity 6 dungeon game with bosses and enemy state machines. 
+**AirPTTBridge**: routes an AirPods mic into push-to-talk on Windows. 
+**PredictX**: a prediction market with live order books and Stripe. 
+**DynamicIsland**: a native macOS notch workspace, in private development.
 
 <a href="https://exodiastudios.com"><img src="./assets/telemetry/studio.svg" width="100%" alt="Exodia Studios: web products, native macOS, AI-agent tooling, games." /></a>
 
