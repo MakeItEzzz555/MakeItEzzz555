@@ -1832,7 +1832,7 @@
   ],
   [
    "2026-11-10",
-   6,
+   11,
    2
   ]
  ],
@@ -1861,7 +1861,7 @@
   },
   "MakeItEzzz555": {
    "license": null,
-   "pushed": "2026-11-09",
+   "pushed": "2026-11-10",
    "stars": 1
   },
   "MovFlix": {
@@ -1912,7 +1912,7 @@
   "codex-widget-kit": {
    "license": "MIT",
    "pushed": "2026-10-27",
-   "stars": 1
+   "stars": 2
   },
   "cpp-data-structures-coursework": {
    "license": null,
@@ -2045,17 +2045,17 @@
    "stars": 1
   }
  },
- "stars": 104,
+ "stars": 105,
  "summary": {
   "current": 3,
   "current_from": "2026-11-08",
   "longest": 20,
   "longest_from": "2026-10-14",
   "longest_to": "2026-11-02",
-  "month": 72,
-  "today": 6,
-  "window": 1100,
-  "year": 1100
+  "month": 77,
+  "today": 11,
+  "window": 1105,
+  "year": 1105
  },
  "updated": "2026-11-10"
 }
