@@ -1849,6 +1849,11 @@
    "2026-11-13",
    1,
    5
+  ],
+  [
+   "2026-11-14",
+   0,
+   6
   ]
  ],
  "followers": 32,
@@ -1882,7 +1887,7 @@
   "MovFlix": {
    "license": null,
    "pushed": "2026-03-18",
-   "stars": 1
+   "stars": 2
   },
   "Projects": {
    "license": null,
@@ -2060,7 +2065,7 @@
    "stars": 1
   }
  },
- "stars": 107,
+ "stars": 108,
  "summary": {
   "current": 6,
   "current_from": "2026-11-08",
@@ -2068,9 +2073,9 @@
   "longest_from": "2026-10-14",
   "longest_to": "2026-11-02",
   "month": 82,
-  "today": 1,
+  "today": 0,
   "window": 1110,
   "year": 1110
  },
- "updated": "2026-11-13"
+ "updated": "2026-11-14"
 }
