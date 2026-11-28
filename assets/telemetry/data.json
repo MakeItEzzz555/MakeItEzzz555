@@ -1847,8 +1847,13 @@
   ],
   [
    "2026-11-27",
-   6,
+   11,
    5
+  ],
+  [
+   "2026-11-28",
+   45,
+   6
   ]
  ],
  "followers": 34,
@@ -2062,15 +2067,15 @@
  },
  "stars": 114,
  "summary": {
-  "current": 5,
+  "current": 6,
   "current_from": "2026-11-23",
   "longest": 20,
   "longest_from": "2026-10-14",
   "longest_to": "2026-11-02",
-  "month": 186,
-  "today": 6,
-  "window": 1214,
-  "year": 1214
+  "month": 236,
+  "today": 45,
+  "window": 1264,
+  "year": 1264
  },
- "updated": "2026-11-27"
+ "updated": "2026-11-28"
 }
